@@ -1,6 +1,7 @@
 #import <SenTestingKit/SenTestingKit.h>
 #import <UIKit/UIKit.h>
 #import "DiceGameAppDelegate.h"
+#import "DiceGameViewController.h"
 
 
 @interface DiceGameAppDelegateTest : SenTestCase {
@@ -12,12 +13,11 @@
 @implementation DiceGameAppDelegateTest
 
 - (void) setUp {
-	diceGameAppDelegate = (DiceGameAppDelegate *) [[UIApplication sharedApplication] delegate];
+	diceGameAppDelegate = [[UIApplication sharedApplication] delegate];
 }
 
 - (void) testDiceGameAppDelegate {
     STAssertNotNil(diceGameAppDelegate, @"");
 }
-
 
 @end

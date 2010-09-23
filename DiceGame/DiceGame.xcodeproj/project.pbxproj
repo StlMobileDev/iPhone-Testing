@@ -35,6 +35,7 @@
 		7B6548E1124BA4010049E82C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		7B6548E2124BA4010049E82C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		7B6548EB124BA4310049E82C /* BuiltInApplicationUnitTest.octest in Resources */ = {isa = PBXBuildFile; fileRef = 7B6547A6124B977A0049E82C /* BuiltInApplicationUnitTest.octest */; };
+		7BB68A84124BE7F3007214CC /* DiceGameViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68A83124BE7F3007214CC /* DiceGameViewControllerTest.m */; };
 		7BF056D9124B155B00E5B1EF /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
 		7BF056DF124B163900E5B1EF /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
 		7BF056E2124B178900E5B1EF /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
@@ -71,6 +72,7 @@
 		7B6547A7124B977A0049E82C /* BuiltInApplicationUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltInApplicationUnitTest-Info.plist"; sourceTree = "<group>"; };
 		7B6548E6124BA4010049E82C /* DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6548E8124BA4010049E82C /* DiceGameBuiltInApplicationUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiceGameBuiltInApplicationUnitTest-Info.plist"; sourceTree = "<group>"; };
+		7BB68A83124BE7F3007214CC /* DiceGameViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceGameViewControllerTest.m; sourceTree = "<group>"; };
 		7BF056D7124B155B00E5B1EF /* Die.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Die.h; sourceTree = "<group>"; };
 		7BF056D8124B155B00E5B1EF /* Die.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Die.m; sourceTree = "<group>"; };
 		7BF056DD124B163900E5B1EF /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				7B6545CC124B95930049E82C /* DiceGameAppDelegateTest.m */,
+				7BB68A83124BE7F3007214CC /* DiceGameViewControllerTest.m */,
 			);
 			name = BuiltInApplicationUnitTest;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				7B654846124B9B320049E82C /* Die.m in Sources */,
 				7B654847124B9B320049E82C /* Round.m in Sources */,
 				7B654848124B9B320049E82C /* Game.m in Sources */,
+				7BB68A84124BE7F3007214CC /* DiceGameViewControllerTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
