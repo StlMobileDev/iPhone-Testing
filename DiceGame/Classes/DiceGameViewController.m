@@ -147,9 +147,10 @@
 - (void) finishRoundIfNecessary {
 	if (![self.round.result isEqualToString:@"?"]) {
 		if ([self.round.result isEqualToString:@"WIN"]) {
-			self.game.roundsWon++;
+			[self.game won];
+		} else if ([self.round.result isEqualToString:@"FAIL"]) {
+			[self.game lost];
 		}
-		self.game.roundsPlayed++;
 		
 		[self.round reset];
 	}
@@ -173,10 +174,8 @@
 	self.bottomRollTextField.text = self.round.bottomRoll;
 	self.roundTotalTextField.text = self.round.total;
 	self.roundResultTextField.text = self.round.result;
-	self.roundsPlayedTextField.text = 
-		[[NSNumber numberWithUnsignedInteger:self.game.roundsPlayed] stringValue];
-	self.roundsWonTextField.text = 
-		[[NSNumber numberWithUnsignedInteger:self.game.roundsWon] stringValue];
+	self.roundsPlayedTextField.text = self.game.roundsPlayed;
+	self.roundsWonTextField.text = self.game.roundsWon;
 	self.winPercentageTextField.text = self.game.roundWinPercentage;
 }
 

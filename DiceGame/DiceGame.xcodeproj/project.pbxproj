@@ -36,6 +36,8 @@
 		7B6548E2124BA4010049E82C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		7B6548EB124BA4310049E82C /* BuiltInApplicationUnitTest.octest in Resources */ = {isa = PBXBuildFile; fileRef = 7B6547A6124B977A0049E82C /* BuiltInApplicationUnitTest.octest */; };
 		7BB68A84124BE7F3007214CC /* DiceGameViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68A83124BE7F3007214CC /* DiceGameViewControllerTest.m */; };
+		7BB68AA0124BEB11007214CC /* GameTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68A9F124BEB11007214CC /* GameTest.m */; };
+		7BB68AAE124BECC7007214CC /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
 		7BF056D9124B155B00E5B1EF /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
 		7BF056DF124B163900E5B1EF /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
 		7BF056E2124B178900E5B1EF /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
@@ -73,6 +75,7 @@
 		7B6548E6124BA4010049E82C /* DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6548E8124BA4010049E82C /* DiceGameBuiltInApplicationUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiceGameBuiltInApplicationUnitTest-Info.plist"; sourceTree = "<group>"; };
 		7BB68A83124BE7F3007214CC /* DiceGameViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceGameViewControllerTest.m; sourceTree = "<group>"; };
+		7BB68A9F124BEB11007214CC /* GameTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTest.m; sourceTree = "<group>"; };
 		7BF056D7124B155B00E5B1EF /* Die.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Die.h; sourceTree = "<group>"; };
 		7BF056D8124B155B00E5B1EF /* Die.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Die.m; sourceTree = "<group>"; };
 		7BF056DD124B163900E5B1EF /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
@@ -198,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				7B654592124B931C0049E82C /* RoundTest.m */,
+				7BB68A9F124BEB11007214CC /* GameTest.m */,
 			);
 			name = BuiltInLogicUnitTest;
 			sourceTree = "<group>";
@@ -383,6 +387,8 @@
 			files = (
 				7B654593124B931C0049E82C /* RoundTest.m in Sources */,
 				7B65484F124B9B430049E82C /* Round.m in Sources */,
+				7BB68AA0124BEB11007214CC /* GameTest.m in Sources */,
+				7BB68AAE124BECC7007214CC /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

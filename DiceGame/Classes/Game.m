@@ -8,24 +8,48 @@
 
 #import "Game.h"
 
+@interface Game()
+
+@property (nonatomic) NSUInteger roundsPlayedCount;
+@property (nonatomic) NSUInteger roundsWonCount;
+
+@end
+
 
 @implementation Game
 
-@synthesize roundsPlayed = _roundsPlayed;
-@synthesize roundsWon = _roundsWon;
+@synthesize roundsPlayedCount = _roundsPlayedCount;
+@synthesize roundsWonCount = _roundsWonCount;
+
+- (NSString *) roundsPlayed {
+	return [[NSNumber numberWithUnsignedInteger:self.roundsPlayedCount] stringValue];
+}
+
+- (NSString *) roundsWon {
+	return [[NSNumber numberWithUnsignedInteger:self.roundsWonCount] stringValue];
+}
 
 - (NSString *) roundWinPercentage {
-	if (self.roundsPlayed == 0) {
+	if (self.roundsPlayedCount == 0) {
 		return @"?";
 	} else {
-		NSUInteger rawRoundWinPercentage = (self.roundsWon * ((NSUInteger) 100)) / self.roundsPlayed;
+		NSUInteger rawRoundWinPercentage = (self.roundsWonCount * ((NSUInteger) 100)) / self.roundsPlayedCount;
 		return [[NSNumber numberWithUnsignedInteger:rawRoundWinPercentage] stringValue];
 	}
 }
 
 - (void) reset {
-	self.roundsPlayed = 0;
-	self.roundsWon = 0;
+	self.roundsPlayedCount = 0;
+	self.roundsWonCount = 0;
+}
+
+- (void) won {
+	self.roundsWonCount++;
+	self.roundsPlayedCount++;
+}
+
+- (void) lost {
+	self.roundsPlayedCount++;
 }
 
 @end
