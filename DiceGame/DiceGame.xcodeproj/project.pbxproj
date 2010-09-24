@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1D3623260D0F684500981E51 /* DiceGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DiceGameAppDelegate.m */; };
-		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
@@ -25,7 +24,6 @@
 		7B65484F124B9B430049E82C /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
 		7B6548D6124BA4010049E82C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		7B6548D7124BA4010049E82C /* DiceGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DiceGameViewController.xib */; };
-		7B6548D9124BA4010049E82C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		7B6548DA124BA4010049E82C /* DiceGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DiceGameAppDelegate.m */; };
 		7B6548DB124BA4010049E82C /* DiceGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DiceGameViewController.m */; };
 		7B6548DC124BA4010049E82C /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
@@ -35,9 +33,45 @@
 		7B6548E1124BA4010049E82C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		7B6548E2124BA4010049E82C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		7B6548EB124BA4310049E82C /* BuiltInApplicationUnitTest.octest in Resources */ = {isa = PBXBuildFile; fileRef = 7B6547A6124B977A0049E82C /* BuiltInApplicationUnitTest.octest */; };
+		7B9D57B9124C478100C48D81 /* libOCMock-sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB68D58124C02FF007214CC /* libOCMock-sim.a */; };
+		7B9D57BA124C478100C48D81 /* libOCMock-sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB68D58124C02FF007214CC /* libOCMock-sim.a */; };
 		7BB68A84124BE7F3007214CC /* DiceGameViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68A83124BE7F3007214CC /* DiceGameViewControllerTest.m */; };
 		7BB68AA0124BEB11007214CC /* GameTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68A9F124BEB11007214CC /* GameTest.m */; };
 		7BB68AAE124BECC7007214CC /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
+		7BB68C89124BFC26007214CC /* GTMIPhoneUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68C38124BFB22007214CC /* GTMIPhoneUnitTestMain.m */; };
+		7BB68C8D124BFC31007214CC /* GTMIPhoneUnitTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68C37124BFB22007214CC /* GTMIPhoneUnitTestDelegate.m */; };
+		7BB68C91124BFC3B007214CC /* GTMSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68C3E124BFB22007214CC /* GTMSenTestCase.m */; };
+		7BB68C95124BFC49007214CC /* GTMUnitTestDevLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68C4D124BFB22007214CC /* GTMUnitTestDevLog.m */; };
+		7BB68C99124BFCBF007214CC /* GTMObjC2Runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68BE2124BFAFB007214CC /* GTMObjC2Runtime.m */; };
+		7BB68C9A124BFCBF007214CC /* GTMRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68BEA124BFAFB007214CC /* GTMRegex.m */; };
+		7BB68CA8124BFD51007214CC /* DiceGameViewControllerGTMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68CA7124BFD51007214CC /* DiceGameViewControllerGTMTest.m */; };
+		7BB68CAB124BFDA5007214CC /* GameGTMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68CAA124BFDA5007214CC /* GameGTMTest.m */; };
+		7BB68CB5124BFE06007214CC /* DiceGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DiceGameAppDelegate.m */; };
+		7BB68CB6124BFE06007214CC /* DiceGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DiceGameViewController.m */; };
+		7BB68CB7124BFE06007214CC /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
+		7BB68CBF124BFE1E007214CC /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
+		7BB68CC0124BFE1E007214CC /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
+		7BB68CDE124BFE45007214CC /* DiceGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DiceGameViewController.xib */; };
+		7BB68CDF124BFE45007214CC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		7BB68CE5124BFE65007214CC /* OCMockGTMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68CE4124BFE65007214CC /* OCMockGTMTest.m */; };
+		7BB68D3F124C022D007214CC /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
+		7BB68D6F124C083F007214CC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		7BB68D70124C083F007214CC /* DiceGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DiceGameViewController.xib */; };
+		7BB68D73124C083F007214CC /* DiceGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DiceGameAppDelegate.m */; };
+		7BB68D74124C083F007214CC /* DiceGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DiceGameViewController.m */; };
+		7BB68D75124C083F007214CC /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
+		7BB68D76124C083F007214CC /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
+		7BB68D77124C083F007214CC /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
+		7BB68D79124C083F007214CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		7BB68D7A124C083F007214CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		7BB68D7B124C083F007214CC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		7BB68DA4124C08E1007214CC /* UISpec.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7BB68DA3124C08E1007214CC /* UISpec.bundle */; };
+		7BB68DA9124C08FC007214CC /* UISpec_1_0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB68DA7124C08F4007214CC /* UISpec_1_0.a */; };
+		7BB68DB2124C0A89007214CC /* main-uispec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68DB1124C0A89007214CC /* main-uispec.m */; };
+		7BB68DB3124C0AAC007214CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		7BB68DEA124C0D3B007214CC /* DescribeDiceGameViewControllerEnablement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68DE9124C0D3B007214CC /* DescribeDiceGameViewControllerEnablement.m */; };
+		7BC87EEB124C1D4F00AD91F8 /* DescribeDiceGameViewControllerTextFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC87EEA124C1D4F00AD91F8 /* DescribeDiceGameViewControllerTextFields.m */; };
+		7BC8801F124C2DBC00AD91F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		7BF056D9124B155B00E5B1EF /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
 		7BF056DF124B163900E5B1EF /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
 		7BF056E2124B178900E5B1EF /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
@@ -76,6 +110,279 @@
 		7B6548E8124BA4010049E82C /* DiceGameBuiltInApplicationUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiceGameBuiltInApplicationUnitTest-Info.plist"; sourceTree = "<group>"; };
 		7BB68A83124BE7F3007214CC /* DiceGameViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceGameViewControllerTest.m; sourceTree = "<group>"; };
 		7BB68A9F124BEB11007214CC /* GameTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTest.m; sourceTree = "<group>"; };
+		7BB68AB7124BEE79007214CC /* OCMockLogicTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMockLogicTest.m; sourceTree = "<group>"; };
+		7BB68AC0124BEF0B007214CC /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		7BB68AC1124BEF0B007214CC /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		7BB68AC2124BEF0B007214CC /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		7BB68AC3124BEF0B007214CC /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		7BB68AC4124BEF0B007214CC /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		7BB68AC5124BEF0B007214CC /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		7BB68AD6124BEFD4007214CC /* OCMockApplicationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMockApplicationTest.m; sourceTree = "<group>"; };
+		7BB68B83124BFAFB007214CC /* GTMAbstractDOListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMAbstractDOListener.h; sourceTree = "<group>"; };
+		7BB68B84124BFAFB007214CC /* GTMAbstractDOListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMAbstractDOListener.m; sourceTree = "<group>"; };
+		7BB68B85124BFAFB007214CC /* GTMAbstractDOListenerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMAbstractDOListenerTest.m; sourceTree = "<group>"; };
+		7BB68B86124BFAFB007214CC /* GTMCalculatedRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMCalculatedRange.h; sourceTree = "<group>"; };
+		7BB68B87124BFAFB007214CC /* GTMCalculatedRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMCalculatedRange.m; sourceTree = "<group>"; };
+		7BB68B88124BFAFB007214CC /* GTMCalculatedRangeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMCalculatedRangeTest.m; sourceTree = "<group>"; };
+		7BB68B89124BFAFB007214CC /* GTMExceptionalInlines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMExceptionalInlines.h; sourceTree = "<group>"; };
+		7BB68B8A124BFAFB007214CC /* GTMExceptionalInlines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMExceptionalInlines.m; sourceTree = "<group>"; };
+		7BB68B8B124BFAFB007214CC /* GTMExceptionalInlinesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMExceptionalInlinesTest.m; sourceTree = "<group>"; };
+		7BB68B8C124BFAFB007214CC /* GTMFileSystemKQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMFileSystemKQueue.h; sourceTree = "<group>"; };
+		7BB68B8D124BFAFB007214CC /* GTMFileSystemKQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMFileSystemKQueue.m; sourceTree = "<group>"; };
+		7BB68B8E124BFAFB007214CC /* GTMFileSystemKQueueTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMFileSystemKQueueTest.m; sourceTree = "<group>"; };
+		7BB68B8F124BFAFB007214CC /* GTMFourCharCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMFourCharCode.h; sourceTree = "<group>"; };
+		7BB68B90124BFAFB007214CC /* GTMFourCharCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMFourCharCode.m; sourceTree = "<group>"; };
+		7BB68B91124BFAFB007214CC /* GTMFourCharCodeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMFourCharCodeTest.m; sourceTree = "<group>"; };
+		7BB68B92124BFAFB007214CC /* GTMGarbageCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGarbageCollection.h; sourceTree = "<group>"; };
+		7BB68B93124BFAFB007214CC /* GTMGeometryUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMGeometryUtils.h; sourceTree = "<group>"; };
+		7BB68B94124BFAFB007214CC /* GTMGeometryUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMGeometryUtils.m; sourceTree = "<group>"; };
+		7BB68B95124BFAFB007214CC /* GTMGeometryUtilsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMGeometryUtilsTest.m; sourceTree = "<group>"; };
+		7BB68B96124BFAFB007214CC /* GTMLightweightProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMLightweightProxy.h; sourceTree = "<group>"; };
+		7BB68B97124BFAFB007214CC /* GTMLightweightProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMLightweightProxy.m; sourceTree = "<group>"; };
+		7BB68B98124BFAFB007214CC /* GTMLightweightProxyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMLightweightProxyTest.m; sourceTree = "<group>"; };
+		7BB68B99124BFAFB007214CC /* GTMLocalizedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMLocalizedString.h; sourceTree = "<group>"; };
+		7BB68B9A124BFAFB007214CC /* GTMLocalizedStringTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMLocalizedStringTest.m; sourceTree = "<group>"; };
+		7BB68B9B124BFAFB007214CC /* GTMLogger+ASL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMLogger+ASL.h"; sourceTree = "<group>"; };
+		7BB68B9C124BFAFB007214CC /* GTMLogger+ASL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMLogger+ASL.m"; sourceTree = "<group>"; };
+		7BB68B9D124BFAFB007214CC /* GTMLogger+ASLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMLogger+ASLTest.m"; sourceTree = "<group>"; };
+		7BB68B9E124BFAFB007214CC /* GTMLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMLogger.h; sourceTree = "<group>"; };
+		7BB68B9F124BFAFB007214CC /* GTMLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMLogger.m; sourceTree = "<group>"; };
+		7BB68BA0124BFAFB007214CC /* GTMLoggerRingBufferWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMLoggerRingBufferWriter.h; sourceTree = "<group>"; };
+		7BB68BA1124BFAFB007214CC /* GTMLoggerRingBufferWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMLoggerRingBufferWriter.m; sourceTree = "<group>"; };
+		7BB68BA2124BFAFB007214CC /* GTMLoggerRingBufferWriterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMLoggerRingBufferWriterTest.m; sourceTree = "<group>"; };
+		7BB68BA3124BFAFB007214CC /* GTMLoggerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMLoggerTest.m; sourceTree = "<group>"; };
+		7BB68BA4124BFAFB007214CC /* GTMNSAppleEvent+HandlerTest.applescript */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.applescript; path = "GTMNSAppleEvent+HandlerTest.applescript"; sourceTree = "<group>"; };
+		7BB68BA5124BFAFB007214CC /* GTMNSAppleEventDescriptor+Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSAppleEventDescriptor+Foundation.h"; sourceTree = "<group>"; };
+		7BB68BA6124BFAFB007214CC /* GTMNSAppleEventDescriptor+Foundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSAppleEventDescriptor+Foundation.m"; sourceTree = "<group>"; };
+		7BB68BA7124BFAFB007214CC /* GTMNSAppleEventDescriptor+FoundationTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSAppleEventDescriptor+FoundationTest.m"; sourceTree = "<group>"; };
+		7BB68BA8124BFAFB007214CC /* GTMNSAppleEventDescriptor+Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSAppleEventDescriptor+Handler.h"; sourceTree = "<group>"; };
+		7BB68BA9124BFAFB007214CC /* GTMNSAppleEventDescriptor+Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSAppleEventDescriptor+Handler.m"; sourceTree = "<group>"; };
+		7BB68BAA124BFAFB007214CC /* GTMNSAppleEventDescriptor+HandlerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSAppleEventDescriptor+HandlerTest.m"; sourceTree = "<group>"; };
+		7BB68BAB124BFAFB007214CC /* GTMNSAppleScript+Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSAppleScript+Handler.h"; sourceTree = "<group>"; };
+		7BB68BAC124BFAFB007214CC /* GTMNSAppleScript+Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSAppleScript+Handler.m"; sourceTree = "<group>"; };
+		7BB68BAD124BFAFB007214CC /* GTMNSAppleScript+HandlerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSAppleScript+HandlerTest.m"; sourceTree = "<group>"; };
+		7BB68BAE124BFAFB007214CC /* GTMNSArray+Merge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSArray+Merge.h"; sourceTree = "<group>"; };
+		7BB68BAF124BFAFB007214CC /* GTMNSArray+Merge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSArray+Merge.m"; sourceTree = "<group>"; };
+		7BB68BB0124BFAFB007214CC /* GTMNSArray+MergeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSArray+MergeTest.m"; sourceTree = "<group>"; };
+		7BB68BB1124BFAFB007214CC /* GTMNSData+zlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		7BB68BB2124BFAFB007214CC /* GTMNSData+zlib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		7BB68BB3124BFAFB007214CC /* GTMNSData+zlibTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSData+zlibTest.m"; sourceTree = "<group>"; };
+		7BB68BB4124BFAFB007214CC /* GTMNSDictionary+CaseInsensitive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSDictionary+CaseInsensitive.h"; sourceTree = "<group>"; };
+		7BB68BB5124BFAFB007214CC /* GTMNSDictionary+CaseInsensitive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSDictionary+CaseInsensitive.m"; sourceTree = "<group>"; };
+		7BB68BB6124BFAFB007214CC /* GTMNSDictionary+CaseInsensitiveTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSDictionary+CaseInsensitiveTest.m"; sourceTree = "<group>"; };
+		7BB68BB7124BFAFB007214CC /* GTMNSDictionary+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSDictionary+URLArguments.h"; sourceTree = "<group>"; };
+		7BB68BB8124BFAFB007214CC /* GTMNSDictionary+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSDictionary+URLArguments.m"; sourceTree = "<group>"; };
+		7BB68BB9124BFAFB007214CC /* GTMNSDictionary+URLArgumentsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSDictionary+URLArgumentsTest.m"; sourceTree = "<group>"; };
+		7BB68BBA124BFAFB007214CC /* GTMNSEnumerator+Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSEnumerator+Filter.h"; sourceTree = "<group>"; };
+		7BB68BBB124BFAFB007214CC /* GTMNSEnumerator+Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSEnumerator+Filter.m"; sourceTree = "<group>"; };
+		7BB68BBC124BFAFB007214CC /* GTMNSEnumerator+FilterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSEnumerator+FilterTest.m"; sourceTree = "<group>"; };
+		7BB68BBD124BFAFB007214CC /* GTMNSFileHandle+UniqueName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSFileHandle+UniqueName.h"; sourceTree = "<group>"; };
+		7BB68BBE124BFAFB007214CC /* GTMNSFileHandle+UniqueName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSFileHandle+UniqueName.m"; sourceTree = "<group>"; };
+		7BB68BBF124BFAFB007214CC /* GTMNSFileHandle+UniqueNameTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSFileHandle+UniqueNameTest.m"; sourceTree = "<group>"; };
+		7BB68BC0124BFAFB007214CC /* GTMNSFileManager+Carbon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSFileManager+Carbon.h"; sourceTree = "<group>"; };
+		7BB68BC1124BFAFB007214CC /* GTMNSFileManager+Carbon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSFileManager+Carbon.m"; sourceTree = "<group>"; };
+		7BB68BC2124BFAFB007214CC /* GTMNSFileManager+CarbonTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSFileManager+CarbonTest.m"; sourceTree = "<group>"; };
+		7BB68BC3124BFAFB007214CC /* GTMNSFileManager+Path.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSFileManager+Path.h"; sourceTree = "<group>"; };
+		7BB68BC4124BFAFB007214CC /* GTMNSFileManager+Path.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSFileManager+Path.m"; sourceTree = "<group>"; };
+		7BB68BC5124BFAFB007214CC /* GTMNSFileManager+PathTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSFileManager+PathTest.m"; sourceTree = "<group>"; };
+		7BB68BC6124BFAFB007214CC /* GTMNSNumber+64Bit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSNumber+64Bit.h"; sourceTree = "<group>"; };
+		7BB68BC7124BFAFB007214CC /* GTMNSNumber+64Bit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSNumber+64Bit.m"; sourceTree = "<group>"; };
+		7BB68BC8124BFAFB007214CC /* GTMNSNumber+64BitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSNumber+64BitTest.m"; sourceTree = "<group>"; };
+		7BB68BC9124BFAFB007214CC /* GTMNSObject+KeyValueObserving.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSObject+KeyValueObserving.h"; sourceTree = "<group>"; };
+		7BB68BCA124BFAFB007214CC /* GTMNSObject+KeyValueObserving.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSObject+KeyValueObserving.m"; sourceTree = "<group>"; };
+		7BB68BCB124BFAFB007214CC /* GTMNSObject+KeyValueObservingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSObject+KeyValueObservingTest.m"; sourceTree = "<group>"; };
+		7BB68BCC124BFAFB007214CC /* GTMNSScanner+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSScanner+JSON.h"; sourceTree = "<group>"; };
+		7BB68BCD124BFAFB007214CC /* GTMNSScanner+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSScanner+JSON.m"; sourceTree = "<group>"; };
+		7BB68BCE124BFAFB007214CC /* GTMNSScanner+JSONTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSScanner+JSONTest.m"; sourceTree = "<group>"; };
+		7BB68BCF124BFAFB007214CC /* GTMNSScanner+Unsigned.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSScanner+Unsigned.h"; sourceTree = "<group>"; };
+		7BB68BD0124BFAFB007214CC /* GTMNSScanner+Unsigned.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSScanner+Unsigned.m"; sourceTree = "<group>"; };
+		7BB68BD1124BFAFB007214CC /* GTMNSScanner+UnsignedTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSScanner+UnsignedTest.m"; sourceTree = "<group>"; };
+		7BB68BD2124BFAFB007214CC /* GTMNSString+FindFolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+FindFolder.h"; sourceTree = "<group>"; };
+		7BB68BD3124BFAFB007214CC /* GTMNSString+FindFolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+FindFolder.m"; sourceTree = "<group>"; };
+		7BB68BD4124BFAFB007214CC /* GTMNSString+FindFolderTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+FindFolderTest.m"; sourceTree = "<group>"; };
+		7BB68BD5124BFAFB007214CC /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		7BB68BD6124BFAFB007214CC /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		7BB68BD7124BFAFB007214CC /* GTMNSString+HTMLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTMLTest.m"; sourceTree = "<group>"; };
+		7BB68BD8124BFAFB007214CC /* GTMNSString+Replace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+Replace.h"; sourceTree = "<group>"; };
+		7BB68BD9124BFAFB007214CC /* GTMNSString+Replace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+Replace.m"; sourceTree = "<group>"; };
+		7BB68BDA124BFAFB007214CC /* GTMNSString+ReplaceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+ReplaceTest.m"; sourceTree = "<group>"; };
+		7BB68BDB124BFAFB007214CC /* GTMNSString+URLArguments.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+URLArguments.h"; sourceTree = "<group>"; };
+		7BB68BDC124BFAFB007214CC /* GTMNSString+URLArguments.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+URLArguments.m"; sourceTree = "<group>"; };
+		7BB68BDD124BFAFB007214CC /* GTMNSString+URLArgumentsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+URLArgumentsTest.m"; sourceTree = "<group>"; };
+		7BB68BDE124BFAFB007214CC /* GTMNSString+XML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+XML.h"; sourceTree = "<group>"; };
+		7BB68BDF124BFAFB007214CC /* GTMNSString+XML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+XML.m"; sourceTree = "<group>"; };
+		7BB68BE0124BFAFB007214CC /* GTMNSString+XMLTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+XMLTest.m"; sourceTree = "<group>"; };
+		7BB68BE1124BFAFB007214CC /* GTMObjC2Runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMObjC2Runtime.h; sourceTree = "<group>"; };
+		7BB68BE2124BFAFB007214CC /* GTMObjC2Runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMObjC2Runtime.m; sourceTree = "<group>"; };
+		7BB68BE3124BFAFB007214CC /* GTMObjC2RuntimeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMObjC2RuntimeTest.m; sourceTree = "<group>"; };
+		7BB68BE4124BFAFB007214CC /* GTMObjectSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMObjectSingleton.h; sourceTree = "<group>"; };
+		7BB68BE5124BFAFB007214CC /* GTMPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMPath.h; sourceTree = "<group>"; };
+		7BB68BE6124BFAFB007214CC /* GTMPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMPath.m; sourceTree = "<group>"; };
+		7BB68BE7124BFAFB007214CC /* GTMPathTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMPathTest.m; sourceTree = "<group>"; };
+		7BB68BE8124BFAFB007214CC /* GTMProgressMonitorInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMProgressMonitorInputStream.h; sourceTree = "<group>"; };
+		7BB68BE9124BFAFB007214CC /* GTMRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMRegex.h; sourceTree = "<group>"; };
+		7BB68BEA124BFAFB007214CC /* GTMRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMRegex.m; sourceTree = "<group>"; };
+		7BB68BEB124BFAFB007214CC /* GTMRegexTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMRegexTest.m; sourceTree = "<group>"; };
+		7BB68BEC124BFAFB007214CC /* GTMScriptRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMScriptRunner.h; sourceTree = "<group>"; };
+		7BB68BED124BFAFB007214CC /* GTMScriptRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMScriptRunner.m; sourceTree = "<group>"; };
+		7BB68BEE124BFAFB007214CC /* GTMScriptRunnerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMScriptRunnerTest.m; sourceTree = "<group>"; };
+		7BB68BEF124BFAFB007214CC /* GTMServiceManagement.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GTMServiceManagement.c; sourceTree = "<group>"; };
+		7BB68BF0124BFAFB007214CC /* GTMServiceManagement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMServiceManagement.h; sourceTree = "<group>"; };
+		7BB68BF1124BFAFB007214CC /* GTMServiceManagementTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMServiceManagementTest.m; sourceTree = "<group>"; };
+		7BB68BF2124BFAFB007214CC /* GTMSignalHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSignalHandler.h; sourceTree = "<group>"; };
+		7BB68BF3124BFAFB007214CC /* GTMSignalHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSignalHandler.m; sourceTree = "<group>"; };
+		7BB68BF4124BFAFB007214CC /* GTMSignalHandlerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSignalHandlerTest.m; sourceTree = "<group>"; };
+		7BB68BF5124BFAFB007214CC /* GTMSQLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSQLite.h; sourceTree = "<group>"; };
+		7BB68BF6124BFAFB007214CC /* GTMSQLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSQLite.m; sourceTree = "<group>"; };
+		7BB68BF7124BFAFB007214CC /* GTMSQLiteTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSQLiteTest.m; sourceTree = "<group>"; };
+		7BB68BF8124BFAFB007214CC /* GTMStackTrace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMStackTrace.h; sourceTree = "<group>"; };
+		7BB68BF9124BFAFB007214CC /* GTMStackTrace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMStackTrace.m; sourceTree = "<group>"; };
+		7BB68BFA124BFAFB007214CC /* GTMStackTraceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMStackTraceTest.m; sourceTree = "<group>"; };
+		7BB68BFB124BFAFB007214CC /* GTMStringEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMStringEncoding.h; sourceTree = "<group>"; };
+		7BB68BFC124BFAFB007214CC /* GTMStringEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMStringEncoding.m; sourceTree = "<group>"; };
+		7BB68BFD124BFAFB007214CC /* GTMStringEncodingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMStringEncodingTest.m; sourceTree = "<group>"; };
+		7BB68BFE124BFAFB007214CC /* GTMSystemVersion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSystemVersion.h; sourceTree = "<group>"; };
+		7BB68BFF124BFAFB007214CC /* GTMSystemVersion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSystemVersion.m; sourceTree = "<group>"; };
+		7BB68C00124BFAFB007214CC /* GTMSystemVersionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSystemVersionTest.m; sourceTree = "<group>"; };
+		7BB68C01124BFAFB007214CC /* GTMTransientRootPortProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMTransientRootPortProxy.h; sourceTree = "<group>"; };
+		7BB68C02124BFAFB007214CC /* GTMTransientRootPortProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMTransientRootPortProxy.m; sourceTree = "<group>"; };
+		7BB68C03124BFAFB007214CC /* GTMTransientRootPortProxyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMTransientRootPortProxyTest.m; sourceTree = "<group>"; };
+		7BB68C04124BFAFB007214CC /* GTMTransientRootProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMTransientRootProxy.h; sourceTree = "<group>"; };
+		7BB68C05124BFAFB007214CC /* GTMTransientRootProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMTransientRootProxy.m; sourceTree = "<group>"; };
+		7BB68C06124BFAFB007214CC /* GTMTransientRootProxyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMTransientRootProxyTest.m; sourceTree = "<group>"; };
+		7BB68C07124BFAFB007214CC /* GTMValidatingContainers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMValidatingContainers.h; sourceTree = "<group>"; };
+		7BB68C08124BFAFB007214CC /* GTMValidatingContainers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMValidatingContainers.m; sourceTree = "<group>"; };
+		7BB68C09124BFAFB007214CC /* GTMValidatingContainersTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMValidatingContainersTest.m; sourceTree = "<group>"; };
+		7BB68C0B124BFB13007214CC /* GTMRoundedRectPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMRoundedRectPath.h; sourceTree = "<group>"; };
+		7BB68C0C124BFB13007214CC /* GTMRoundedRectPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMRoundedRectPath.m; sourceTree = "<group>"; };
+		7BB68C0D124BFB13007214CC /* GTMUIFont+LineHeight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMUIFont+LineHeight.h"; sourceTree = "<group>"; };
+		7BB68C0E124BFB13007214CC /* GTMUIFont+LineHeight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMUIFont+LineHeight.m"; sourceTree = "<group>"; };
+		7BB68C0F124BFB13007214CC /* GTMUIFont+LineHeightTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMUIFont+LineHeightTest.m"; sourceTree = "<group>"; };
+		7BB68C10124BFB13007214CC /* GTMUIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMUIImage+Resize.h"; sourceTree = "<group>"; };
+		7BB68C11124BFB13007214CC /* GTMUIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMUIImage+Resize.m"; sourceTree = "<group>"; };
+		7BB68C12124BFB13007214CC /* GTMUIImage+ResizeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMUIImage+ResizeTest.m"; sourceTree = "<group>"; };
+		7BB68C13124BFB13007214CC /* GTMUIView+SubtreeDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMUIView+SubtreeDescription.h"; sourceTree = "<group>"; };
+		7BB68C14124BFB13007214CC /* GTMUIView+SubtreeDescription.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMUIView+SubtreeDescription.m"; sourceTree = "<group>"; };
+		7BB68C15124BFB13007214CC /* GTMUIView+SubtreeDescriptionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMUIView+SubtreeDescriptionTest.m"; sourceTree = "<group>"; };
+		7BB68C17124BFB13007214CC /* GTMUIImage+Resize_100x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_100x100.png"; sourceTree = "<group>"; };
+		7BB68C18124BFB13007214CC /* GTMUIImage+Resize_100x100_to_40x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_100x100_to_40x60.png"; sourceTree = "<group>"; };
+		7BB68C19124BFB13007214CC /* GTMUIImage+Resize_100x100_to_50x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_100x100_to_50x50.png"; sourceTree = "<group>"; };
+		7BB68C1A124BFB13007214CC /* GTMUIImage+Resize_100x100_to_60x40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_100x100_to_60x40.png"; sourceTree = "<group>"; };
+		7BB68C1B124BFB13007214CC /* GTMUIImage+Resize_100x50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_100x50.png"; sourceTree = "<group>"; };
+		7BB68C1C124BFB13007214CC /* GTMUIImage+Resize_100x50_flipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_100x50_flipped.png"; sourceTree = "<group>"; };
+		7BB68C1D124BFB13007214CC /* GTMUIImage+Resize_100x50_to_40x60_clip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_100x50_to_40x60_clip.png"; sourceTree = "<group>"; };
+		7BB68C1E124BFB13007214CC /* GTMUIImage+Resize_100x50_to_40x60_noclip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_100x50_to_40x60_noclip.png"; sourceTree = "<group>"; };
+		7BB68C1F124BFB13007214CC /* GTMUIImage+Resize_100x50_to_50x50_clip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_100x50_to_50x50_clip.png"; sourceTree = "<group>"; };
+		7BB68C20124BFB13007214CC /* GTMUIImage+Resize_100x50_to_50x50_noclip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_100x50_to_50x50_noclip.png"; sourceTree = "<group>"; };
+		7BB68C21124BFB13007214CC /* GTMUIImage+Resize_100x50_to_60x40_clip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_100x50_to_60x40_clip.png"; sourceTree = "<group>"; };
+		7BB68C22124BFB13007214CC /* GTMUIImage+Resize_100x50_to_60x40_noclip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_100x50_to_60x40_noclip.png"; sourceTree = "<group>"; };
+		7BB68C23124BFB13007214CC /* GTMUIImage+Resize_50x100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_50x100.png"; sourceTree = "<group>"; };
+		7BB68C24124BFB13007214CC /* GTMUIImage+Resize_50x100_flipped.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_50x100_flipped.png"; sourceTree = "<group>"; };
+		7BB68C25124BFB13007214CC /* GTMUIImage+Resize_50x100_to_40x60_clip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_50x100_to_40x60_clip.png"; sourceTree = "<group>"; };
+		7BB68C26124BFB13007214CC /* GTMUIImage+Resize_50x100_to_40x60_noclip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_50x100_to_40x60_noclip.png"; sourceTree = "<group>"; };
+		7BB68C27124BFB13007214CC /* GTMUIImage+Resize_50x100_to_50x50_clip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_50x100_to_50x50_clip.png"; sourceTree = "<group>"; };
+		7BB68C28124BFB13007214CC /* GTMUIImage+Resize_50x100_to_50x50_noclip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_50x100_to_50x50_noclip.png"; sourceTree = "<group>"; };
+		7BB68C29124BFB13007214CC /* GTMUIImage+Resize_50x100_to_60x40_clip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_50x100_to_60x40_clip.png"; sourceTree = "<group>"; };
+		7BB68C2A124BFB13007214CC /* GTMUIImage+Resize_50x100_to_60x40_noclip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GTMUIImage+Resize_50x100_to_60x40_noclip.png"; sourceTree = "<group>"; };
+		7BB68C2B124BFB13007214CC /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		7BB68C2D124BFB22007214CC /* GTMAppKit+UnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMAppKit+UnitTesting.h"; sourceTree = "<group>"; };
+		7BB68C2E124BFB22007214CC /* GTMAppKit+UnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMAppKit+UnitTesting.m"; sourceTree = "<group>"; };
+		7BB68C2F124BFB22007214CC /* GTMAppKitUnitTestingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMAppKitUnitTestingUtilities.h; sourceTree = "<group>"; };
+		7BB68C30124BFB22007214CC /* GTMAppKitUnitTestingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMAppKitUnitTestingUtilities.m; sourceTree = "<group>"; };
+		7BB68C31124BFB22007214CC /* GTMCALayer+UnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMCALayer+UnitTesting.h"; sourceTree = "<group>"; };
+		7BB68C32124BFB22007214CC /* GTMCALayer+UnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMCALayer+UnitTesting.m"; sourceTree = "<group>"; };
+		7BB68C33124BFB22007214CC /* GTMDevLogUnitTestingBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMDevLogUnitTestingBridge.m; sourceTree = "<group>"; };
+		7BB68C34124BFB22007214CC /* GTMFoundationUnitTestingUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMFoundationUnitTestingUtilities.h; sourceTree = "<group>"; };
+		7BB68C35124BFB22007214CC /* GTMFoundationUnitTestingUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMFoundationUnitTestingUtilities.m; sourceTree = "<group>"; };
+		7BB68C36124BFB22007214CC /* GTMIPhoneUnitTestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMIPhoneUnitTestDelegate.h; sourceTree = "<group>"; };
+		7BB68C37124BFB22007214CC /* GTMIPhoneUnitTestDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMIPhoneUnitTestDelegate.m; sourceTree = "<group>"; };
+		7BB68C38124BFB22007214CC /* GTMIPhoneUnitTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMIPhoneUnitTestMain.m; sourceTree = "<group>"; };
+		7BB68C39124BFB22007214CC /* GTMNSObject+BindingUnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSObject+BindingUnitTesting.h"; sourceTree = "<group>"; };
+		7BB68C3A124BFB22007214CC /* GTMNSObject+BindingUnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSObject+BindingUnitTesting.m"; sourceTree = "<group>"; };
+		7BB68C3B124BFB22007214CC /* GTMNSObject+UnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSObject+UnitTesting.h"; sourceTree = "<group>"; };
+		7BB68C3C124BFB22007214CC /* GTMNSObject+UnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSObject+UnitTesting.m"; sourceTree = "<group>"; };
+		7BB68C3D124BFB22007214CC /* GTMSenTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMSenTestCase.h; sourceTree = "<group>"; };
+		7BB68C3E124BFB22007214CC /* GTMSenTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMSenTestCase.m; sourceTree = "<group>"; };
+		7BB68C3F124BFB22007214CC /* GTMTestTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMTestTimer.h; sourceTree = "<group>"; };
+		7BB68C40124BFB22007214CC /* GTMTestTimerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMTestTimerTest.m; sourceTree = "<group>"; };
+		7BB68C41124BFB22007214CC /* GTMUIKit+UnitTesting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMUIKit+UnitTesting.h"; sourceTree = "<group>"; };
+		7BB68C42124BFB22007214CC /* GTMUIKit+UnitTesting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMUIKit+UnitTesting.m"; sourceTree = "<group>"; };
+		7BB68C43124BFB22007214CC /* GTMUIKit+UnitTestingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMUIKit+UnitTestingTest.m"; sourceTree = "<group>"; };
+		7BB68C46124BFB22007214CC /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7BB68C48124BFB22007214CC /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7BB68C49124BFB22007214CC /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7BB68C4A124BFB22007214CC /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7BB68C4B124BFB22007214CC /* GTMUIViewUnitTestingTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GTMUIViewUnitTestingTest.png; sourceTree = "<group>"; };
+		7BB68C4C124BFB22007214CC /* GTMUnitTestDevLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMUnitTestDevLog.h; sourceTree = "<group>"; };
+		7BB68C4D124BFB22007214CC /* GTMUnitTestDevLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMUnitTestDevLog.m; sourceTree = "<group>"; };
+		7BB68C4E124BFB22007214CC /* GTMUnitTestingBindingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMUnitTestingBindingTest.m; sourceTree = "<group>"; };
+		7BB68C4F124BFB22007214CC /* GTMUnitTestingTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMUnitTestingTest.h; sourceTree = "<group>"; };
+		7BB68C50124BFB22007214CC /* GTMUnitTestingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMUnitTestingTest.m; sourceTree = "<group>"; };
+		7BB68C51124BFB22007214CC /* RunIPhoneLaunchDaemons.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RunIPhoneLaunchDaemons.sh; sourceTree = "<group>"; };
+		7BB68C52124BFB22007214CC /* RunIPhoneUnitTest.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RunIPhoneUnitTest.sh; sourceTree = "<group>"; };
+		7BB68C53124BFB22007214CC /* RunMacOSUnitTests.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = RunMacOSUnitTests.sh; sourceTree = "<group>"; };
+		7BB68C55124BFB22007214CC /* GTMUIViewUnitTestingTest.gtmUTState */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GTMUIViewUnitTestingTest.gtmUTState; sourceTree = "<group>"; };
+		7BB68C56124BFB22007214CC /* GTMUIViewUnitTestingTest.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GTMUIViewUnitTestingTest.png; sourceTree = "<group>"; };
+		7BB68C57124BFB22007214CC /* GTMUnitTestingImage.10.6.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = GTMUnitTestingImage.10.6.tiff; sourceTree = "<group>"; };
+		7BB68C58124BFB22007214CC /* GTMUnitTestingImage.gtmUTState */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GTMUnitTestingImage.gtmUTState; sourceTree = "<group>"; };
+		7BB68C59124BFB22007214CC /* GTMUnitTestingImage.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = GTMUnitTestingImage.tiff; sourceTree = "<group>"; };
+		7BB68C5A124BFB22007214CC /* GTMUnitTestingTest.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; path = GTMUnitTestingTest.nib; sourceTree = "<group>"; };
+		7BB68C5B124BFB22007214CC /* GTMUnitTestingTestApp.10.6.gtmUTState */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GTMUnitTestingTestApp.10.6.gtmUTState; sourceTree = "<group>"; };
+		7BB68C5C124BFB22007214CC /* GTMUnitTestingTestApp.gtmUTState */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GTMUnitTestingTestApp.gtmUTState; sourceTree = "<group>"; };
+		7BB68C5D124BFB22007214CC /* GTMUnitTestingView.10.6.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = GTMUnitTestingView.10.6.tiff; sourceTree = "<group>"; };
+		7BB68C5E124BFB22007214CC /* GTMUnitTestingView.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = GTMUnitTestingView.tiff; sourceTree = "<group>"; };
+		7BB68C5F124BFB22007214CC /* GTMUnitTestingWindow.10.5.6.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = GTMUnitTestingWindow.10.5.6.tiff; sourceTree = "<group>"; };
+		7BB68C60124BFB22007214CC /* GTMUnitTestingWindow.10.5.7.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = GTMUnitTestingWindow.10.5.7.tiff; sourceTree = "<group>"; };
+		7BB68C61124BFB22007214CC /* GTMUnitTestingWindow.10.5.8.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = GTMUnitTestingWindow.10.5.8.tiff; sourceTree = "<group>"; };
+		7BB68C62124BFB22007214CC /* GTMUnitTestingWindow.10.6.gtmUTState */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GTMUnitTestingWindow.10.6.gtmUTState; sourceTree = "<group>"; };
+		7BB68C63124BFB22007214CC /* GTMUnitTestingWindow.10.6.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = GTMUnitTestingWindow.10.6.tiff; sourceTree = "<group>"; };
+		7BB68C64124BFB22007214CC /* GTMUnitTestingWindow.gtmUTState */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = GTMUnitTestingWindow.gtmUTState; sourceTree = "<group>"; };
+		7BB68C65124BFB22007214CC /* GTMUnitTestingWindow.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = GTMUnitTestingWindow.tiff; sourceTree = "<group>"; };
+		7BB68C70124BFB89007214CC /* GTMUnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GTMUnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB68C72124BFB89007214CC /* GTMUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GTMUnitTest-Info.plist"; sourceTree = "<group>"; };
+		7BB68C76124BFBBA007214CC /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		7BB68CA7124BFD51007214CC /* DiceGameViewControllerGTMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceGameViewControllerGTMTest.m; sourceTree = "<group>"; };
+		7BB68CAA124BFDA5007214CC /* GameGTMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameGTMTest.m; sourceTree = "<group>"; };
+		7BB68CE4124BFE65007214CC /* OCMockGTMTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMockGTMTest.m; sourceTree = "<group>"; };
+		7BB68D57124C02FF007214CC /* libOCMock-dev.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOCMock-dev.a"; path = "OCMock/libOCMock-dev.a"; sourceTree = "<group>"; };
+		7BB68D58124C02FF007214CC /* libOCMock-sim.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libOCMock-sim.a"; path = "OCMock/libOCMock-sim.a"; sourceTree = "<group>"; };
+		7BB68D7F124C083F007214CC /* DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BB68D82124C083F007214CC /* DiceGameUISpec-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiceGameUISpec-Info.plist"; sourceTree = "<group>"; };
+		7BB68D86124C08D0007214CC /* CallCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CallCache.h; path = UISpec/CallCache.h; sourceTree = "<group>"; };
+		7BB68D87124C08D0007214CC /* NSNumberCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSNumberCreator.h; path = UISpec/NSNumberCreator.h; sourceTree = "<group>"; };
+		7BB68D88124C08D0007214CC /* Recordable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Recordable.h; path = UISpec/Recordable.h; sourceTree = "<group>"; };
+		7BB68D89124C08D0007214CC /* ReturnCacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReturnCacher.h; path = UISpec/ReturnCacher.h; sourceTree = "<group>"; };
+		7BB68D8A124C08D0007214CC /* UIBug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIBug.h; path = UISpec/UIBug.h; sourceTree = "<group>"; };
+		7BB68D8B124C08D0007214CC /* UIChildren.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIChildren.h; path = UISpec/UIChildren.h; sourceTree = "<group>"; };
+		7BB68D8C124C08D0007214CC /* UIConsole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIConsole.h; path = UISpec/UIConsole.h; sourceTree = "<group>"; };
+		7BB68D8D124C08D0007214CC /* UIConsoleLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIConsoleLog.h; path = UISpec/UIConsoleLog.h; sourceTree = "<group>"; };
+		7BB68D8E124C08D0007214CC /* UIDescendants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIDescendants.h; path = UISpec/UIDescendants.h; sourceTree = "<group>"; };
+		7BB68D8F124C08D0007214CC /* UIExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIExpectation.h; path = UISpec/UIExpectation.h; sourceTree = "<group>"; };
+		7BB68D90124C08D0007214CC /* UIFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIFilter.h; path = UISpec/UIFilter.h; sourceTree = "<group>"; };
+		7BB68D91124C08D0007214CC /* UIInspector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIInspector.h; path = UISpec/UIInspector.h; sourceTree = "<group>"; };
+		7BB68D92124C08D0007214CC /* UILog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UILog.h; path = UISpec/UILog.h; sourceTree = "<group>"; };
+		7BB68D93124C08D0007214CC /* UIMatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIMatcher.h; path = UISpec/UIMatcher.h; sourceTree = "<group>"; };
+		7BB68D94124C08D0007214CC /* UIParents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIParents.h; path = UISpec/UIParents.h; sourceTree = "<group>"; };
+		7BB68D95124C08D0007214CC /* UIProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIProxy.h; path = UISpec/UIProxy.h; sourceTree = "<group>"; };
+		7BB68D96124C08D0007214CC /* UIQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIQuery.h; path = UISpec/UIQuery.h; sourceTree = "<group>"; };
+		7BB68D97124C08D0007214CC /* UIQueryAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIQueryAll.h; path = UISpec/UIQueryAll.h; sourceTree = "<group>"; };
+		7BB68D98124C08D0007214CC /* UIQueryExpectation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIQueryExpectation.h; path = UISpec/UIQueryExpectation.h; sourceTree = "<group>"; };
+		7BB68D99124C08D0007214CC /* UIQuerySearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIQuerySearchBar.h; path = UISpec/UIQuerySearchBar.h; sourceTree = "<group>"; };
+		7BB68D9A124C08D0007214CC /* UIQuerySegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIQuerySegmentedControl.h; path = UISpec/UIQuerySegmentedControl.h; sourceTree = "<group>"; };
+		7BB68D9B124C08D0007214CC /* UIQueryTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIQueryTabBar.h; path = UISpec/UIQueryTabBar.h; sourceTree = "<group>"; };
+		7BB68D9C124C08D0007214CC /* UIQueryTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIQueryTableView.h; path = UISpec/UIQueryTableView.h; sourceTree = "<group>"; };
+		7BB68D9D124C08D0007214CC /* UIQueryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIQueryTableViewCell.h; path = UISpec/UIQueryTableViewCell.h; sourceTree = "<group>"; };
+		7BB68D9E124C08D0007214CC /* UIQueryWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIQueryWebView.h; path = UISpec/UIQueryWebView.h; sourceTree = "<group>"; };
+		7BB68D9F124C08D0007214CC /* UIRedoer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIRedoer.h; path = UISpec/UIRedoer.h; sourceTree = "<group>"; };
+		7BB68DA0124C08D0007214CC /* UISpec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UISpec.h; path = UISpec/UISpec.h; sourceTree = "<group>"; };
+		7BB68DA1124C08D0007214CC /* ViewFilterSwizzler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewFilterSwizzler.h; path = UISpec/ViewFilterSwizzler.h; sourceTree = "<group>"; };
+		7BB68DA2124C08D0007214CC /* WaitUntilIdle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WaitUntilIdle.h; path = UISpec/WaitUntilIdle.h; sourceTree = "<group>"; };
+		7BB68DA3124C08E1007214CC /* UISpec.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = UISpec.bundle; path = UISpec/UISpec.bundle; sourceTree = "<group>"; };
+		7BB68DA7124C08F4007214CC /* UISpec_1_0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = UISpec_1_0.a; path = UISpec/UISpec_1_0.a; sourceTree = "<group>"; };
+		7BB68DB1124C0A89007214CC /* main-uispec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "main-uispec.m"; sourceTree = "<group>"; };
+		7BB68DE9124C0D3B007214CC /* DescribeDiceGameViewControllerEnablement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeDiceGameViewControllerEnablement.m; sourceTree = "<group>"; };
+		7BC87EEA124C1D4F00AD91F8 /* DescribeDiceGameViewControllerTextFields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeDiceGameViewControllerTextFields.m; sourceTree = "<group>"; };
+		7BC87FD1124C290800AD91F8 /* MyGTMUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyGTMUnitTest-Info.plist"; sourceTree = "<group>"; };
 		7BF056D7124B155B00E5B1EF /* Die.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Die.h; sourceTree = "<group>"; };
 		7BF056D8124B155B00E5B1EF /* Die.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Die.m; sourceTree = "<group>"; };
 		7BF056DD124B163900E5B1EF /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
@@ -120,6 +427,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7BB68C6E124BFB89007214CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B9D57B9124C478100C48D81 /* libOCMock-sim.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB68D78124C083F007214CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB68D79124C083F007214CC /* Foundation.framework in Frameworks */,
+				7BB68D7A124C083F007214CC /* UIKit.framework in Frameworks */,
+				7BB68D7B124C083F007214CC /* CoreGraphics.framework in Frameworks */,
+				7BB68DA9124C08FC007214CC /* UISpec_1_0.a in Frameworks */,
+				7B9D57BA124C478100C48D81 /* libOCMock-sim.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -147,6 +474,8 @@
 				7B654513124B8BAD0049E82C /* BuiltInUnitTest.octest */,
 				7B6547A6124B977A0049E82C /* BuiltInApplicationUnitTest.octest */,
 				7B6548E6124BA4010049E82C /* DiceGame.app */,
+				7BB68C70124BFB89007214CC /* GTMUnitTest.app */,
+				7BB68D7F124C083F007214CC /* DiceGame.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -154,6 +483,11 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				7BB68DE7124C0D0B007214CC /* UISpecDescribes */,
+				7BB68D85124C08AA007214CC /* UISpec */,
+				7BB68CA5124BFD07007214CC /* GTMUnitTest */,
+				7BB68B81124BFAD2007214CC /* GTM */,
+				7BB68ABF124BEEE4007214CC /* OCMock */,
 				7B6545C9124B95730049E82C /* BuiltInApplicationUnitTest */,
 				7B654590124B93030049E82C /* BuiltInLogicUnitTest */,
 				080E96DDFE201D6D7F000001 /* Classes */,
@@ -161,6 +495,8 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				7BB68C72124BFB89007214CC /* GTMUnitTest-Info.plist */,
+				7BC87FD1124C290800AD91F8 /* MyGTMUnitTest-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -170,6 +506,7 @@
 			children = (
 				32CA4F630368D1EE00C91783 /* DiceGame_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
+				7BB68DB1124C0A89007214CC /* main-uispec.m */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -177,12 +514,14 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7BB68DA3124C08E1007214CC /* UISpec.bundle */,
 				7B654514124B8BAD0049E82C /* BuiltInUnitTest-Info.plist */,
 				7B6547A7124B977A0049E82C /* BuiltInApplicationUnitTest-Info.plist */,
 				2899E5210DE3E06400AC0155 /* DiceGameViewController.xib */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* DiceGame-Info.plist */,
 				7B6548E8124BA4010049E82C /* DiceGameBuiltInApplicationUnitTest-Info.plist */,
+				7BB68D82124C083F007214CC /* DiceGameUISpec-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -190,9 +529,12 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7BB68D57124C02FF007214CC /* libOCMock-dev.a */,
+				7BB68D58124C02FF007214CC /* libOCMock-sim.a */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				7BB68DA7124C08F4007214CC /* UISpec_1_0.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -202,6 +544,7 @@
 			children = (
 				7B654592124B931C0049E82C /* RoundTest.m */,
 				7BB68A9F124BEB11007214CC /* GameTest.m */,
+				7BB68AB7124BEE79007214CC /* OCMockLogicTest.m */,
 			);
 			name = BuiltInLogicUnitTest;
 			sourceTree = "<group>";
@@ -211,8 +554,353 @@
 			children = (
 				7B6545CC124B95930049E82C /* DiceGameAppDelegateTest.m */,
 				7BB68A83124BE7F3007214CC /* DiceGameViewControllerTest.m */,
+				7BB68AD6124BEFD4007214CC /* OCMockApplicationTest.m */,
 			);
 			name = BuiltInApplicationUnitTest;
+			sourceTree = "<group>";
+		};
+		7BB68ABF124BEEE4007214CC /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				7BB68AC0124BEF0B007214CC /* NSNotificationCenter+OCMAdditions.h */,
+				7BB68AC1124BEF0B007214CC /* OCMArg.h */,
+				7BB68AC2124BEF0B007214CC /* OCMConstraint.h */,
+				7BB68AC3124BEF0B007214CC /* OCMock.h */,
+				7BB68AC4124BEF0B007214CC /* OCMockObject.h */,
+				7BB68AC5124BEF0B007214CC /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		7BB68B81124BFAD2007214CC /* GTM */ = {
+			isa = PBXGroup;
+			children = (
+				7BB68C76124BFBBA007214CC /* GTMDefines.h */,
+				7BB68B82124BFAFB007214CC /* Foundation */,
+				7BB68C0A124BFB13007214CC /* iPhone */,
+				7BB68C2C124BFB22007214CC /* UnitTesting */,
+			);
+			path = GTM;
+			sourceTree = "<group>";
+		};
+		7BB68B82124BFAFB007214CC /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7BB68B83124BFAFB007214CC /* GTMAbstractDOListener.h */,
+				7BB68B84124BFAFB007214CC /* GTMAbstractDOListener.m */,
+				7BB68B85124BFAFB007214CC /* GTMAbstractDOListenerTest.m */,
+				7BB68B86124BFAFB007214CC /* GTMCalculatedRange.h */,
+				7BB68B87124BFAFB007214CC /* GTMCalculatedRange.m */,
+				7BB68B88124BFAFB007214CC /* GTMCalculatedRangeTest.m */,
+				7BB68B89124BFAFB007214CC /* GTMExceptionalInlines.h */,
+				7BB68B8A124BFAFB007214CC /* GTMExceptionalInlines.m */,
+				7BB68B8B124BFAFB007214CC /* GTMExceptionalInlinesTest.m */,
+				7BB68B8C124BFAFB007214CC /* GTMFileSystemKQueue.h */,
+				7BB68B8D124BFAFB007214CC /* GTMFileSystemKQueue.m */,
+				7BB68B8E124BFAFB007214CC /* GTMFileSystemKQueueTest.m */,
+				7BB68B8F124BFAFB007214CC /* GTMFourCharCode.h */,
+				7BB68B90124BFAFB007214CC /* GTMFourCharCode.m */,
+				7BB68B91124BFAFB007214CC /* GTMFourCharCodeTest.m */,
+				7BB68B92124BFAFB007214CC /* GTMGarbageCollection.h */,
+				7BB68B93124BFAFB007214CC /* GTMGeometryUtils.h */,
+				7BB68B94124BFAFB007214CC /* GTMGeometryUtils.m */,
+				7BB68B95124BFAFB007214CC /* GTMGeometryUtilsTest.m */,
+				7BB68B96124BFAFB007214CC /* GTMLightweightProxy.h */,
+				7BB68B97124BFAFB007214CC /* GTMLightweightProxy.m */,
+				7BB68B98124BFAFB007214CC /* GTMLightweightProxyTest.m */,
+				7BB68B99124BFAFB007214CC /* GTMLocalizedString.h */,
+				7BB68B9A124BFAFB007214CC /* GTMLocalizedStringTest.m */,
+				7BB68B9B124BFAFB007214CC /* GTMLogger+ASL.h */,
+				7BB68B9C124BFAFB007214CC /* GTMLogger+ASL.m */,
+				7BB68B9D124BFAFB007214CC /* GTMLogger+ASLTest.m */,
+				7BB68B9E124BFAFB007214CC /* GTMLogger.h */,
+				7BB68B9F124BFAFB007214CC /* GTMLogger.m */,
+				7BB68BA0124BFAFB007214CC /* GTMLoggerRingBufferWriter.h */,
+				7BB68BA1124BFAFB007214CC /* GTMLoggerRingBufferWriter.m */,
+				7BB68BA2124BFAFB007214CC /* GTMLoggerRingBufferWriterTest.m */,
+				7BB68BA3124BFAFB007214CC /* GTMLoggerTest.m */,
+				7BB68BA4124BFAFB007214CC /* GTMNSAppleEvent+HandlerTest.applescript */,
+				7BB68BA5124BFAFB007214CC /* GTMNSAppleEventDescriptor+Foundation.h */,
+				7BB68BA6124BFAFB007214CC /* GTMNSAppleEventDescriptor+Foundation.m */,
+				7BB68BA7124BFAFB007214CC /* GTMNSAppleEventDescriptor+FoundationTest.m */,
+				7BB68BA8124BFAFB007214CC /* GTMNSAppleEventDescriptor+Handler.h */,
+				7BB68BA9124BFAFB007214CC /* GTMNSAppleEventDescriptor+Handler.m */,
+				7BB68BAA124BFAFB007214CC /* GTMNSAppleEventDescriptor+HandlerTest.m */,
+				7BB68BAB124BFAFB007214CC /* GTMNSAppleScript+Handler.h */,
+				7BB68BAC124BFAFB007214CC /* GTMNSAppleScript+Handler.m */,
+				7BB68BAD124BFAFB007214CC /* GTMNSAppleScript+HandlerTest.m */,
+				7BB68BAE124BFAFB007214CC /* GTMNSArray+Merge.h */,
+				7BB68BAF124BFAFB007214CC /* GTMNSArray+Merge.m */,
+				7BB68BB0124BFAFB007214CC /* GTMNSArray+MergeTest.m */,
+				7BB68BB1124BFAFB007214CC /* GTMNSData+zlib.h */,
+				7BB68BB2124BFAFB007214CC /* GTMNSData+zlib.m */,
+				7BB68BB3124BFAFB007214CC /* GTMNSData+zlibTest.m */,
+				7BB68BB4124BFAFB007214CC /* GTMNSDictionary+CaseInsensitive.h */,
+				7BB68BB5124BFAFB007214CC /* GTMNSDictionary+CaseInsensitive.m */,
+				7BB68BB6124BFAFB007214CC /* GTMNSDictionary+CaseInsensitiveTest.m */,
+				7BB68BB7124BFAFB007214CC /* GTMNSDictionary+URLArguments.h */,
+				7BB68BB8124BFAFB007214CC /* GTMNSDictionary+URLArguments.m */,
+				7BB68BB9124BFAFB007214CC /* GTMNSDictionary+URLArgumentsTest.m */,
+				7BB68BBA124BFAFB007214CC /* GTMNSEnumerator+Filter.h */,
+				7BB68BBB124BFAFB007214CC /* GTMNSEnumerator+Filter.m */,
+				7BB68BBC124BFAFB007214CC /* GTMNSEnumerator+FilterTest.m */,
+				7BB68BBD124BFAFB007214CC /* GTMNSFileHandle+UniqueName.h */,
+				7BB68BBE124BFAFB007214CC /* GTMNSFileHandle+UniqueName.m */,
+				7BB68BBF124BFAFB007214CC /* GTMNSFileHandle+UniqueNameTest.m */,
+				7BB68BC0124BFAFB007214CC /* GTMNSFileManager+Carbon.h */,
+				7BB68BC1124BFAFB007214CC /* GTMNSFileManager+Carbon.m */,
+				7BB68BC2124BFAFB007214CC /* GTMNSFileManager+CarbonTest.m */,
+				7BB68BC3124BFAFB007214CC /* GTMNSFileManager+Path.h */,
+				7BB68BC4124BFAFB007214CC /* GTMNSFileManager+Path.m */,
+				7BB68BC5124BFAFB007214CC /* GTMNSFileManager+PathTest.m */,
+				7BB68BC6124BFAFB007214CC /* GTMNSNumber+64Bit.h */,
+				7BB68BC7124BFAFB007214CC /* GTMNSNumber+64Bit.m */,
+				7BB68BC8124BFAFB007214CC /* GTMNSNumber+64BitTest.m */,
+				7BB68BC9124BFAFB007214CC /* GTMNSObject+KeyValueObserving.h */,
+				7BB68BCA124BFAFB007214CC /* GTMNSObject+KeyValueObserving.m */,
+				7BB68BCB124BFAFB007214CC /* GTMNSObject+KeyValueObservingTest.m */,
+				7BB68BCC124BFAFB007214CC /* GTMNSScanner+JSON.h */,
+				7BB68BCD124BFAFB007214CC /* GTMNSScanner+JSON.m */,
+				7BB68BCE124BFAFB007214CC /* GTMNSScanner+JSONTest.m */,
+				7BB68BCF124BFAFB007214CC /* GTMNSScanner+Unsigned.h */,
+				7BB68BD0124BFAFB007214CC /* GTMNSScanner+Unsigned.m */,
+				7BB68BD1124BFAFB007214CC /* GTMNSScanner+UnsignedTest.m */,
+				7BB68BD2124BFAFB007214CC /* GTMNSString+FindFolder.h */,
+				7BB68BD3124BFAFB007214CC /* GTMNSString+FindFolder.m */,
+				7BB68BD4124BFAFB007214CC /* GTMNSString+FindFolderTest.m */,
+				7BB68BD5124BFAFB007214CC /* GTMNSString+HTML.h */,
+				7BB68BD6124BFAFB007214CC /* GTMNSString+HTML.m */,
+				7BB68BD7124BFAFB007214CC /* GTMNSString+HTMLTest.m */,
+				7BB68BD8124BFAFB007214CC /* GTMNSString+Replace.h */,
+				7BB68BD9124BFAFB007214CC /* GTMNSString+Replace.m */,
+				7BB68BDA124BFAFB007214CC /* GTMNSString+ReplaceTest.m */,
+				7BB68BDB124BFAFB007214CC /* GTMNSString+URLArguments.h */,
+				7BB68BDC124BFAFB007214CC /* GTMNSString+URLArguments.m */,
+				7BB68BDD124BFAFB007214CC /* GTMNSString+URLArgumentsTest.m */,
+				7BB68BDE124BFAFB007214CC /* GTMNSString+XML.h */,
+				7BB68BDF124BFAFB007214CC /* GTMNSString+XML.m */,
+				7BB68BE0124BFAFB007214CC /* GTMNSString+XMLTest.m */,
+				7BB68BE1124BFAFB007214CC /* GTMObjC2Runtime.h */,
+				7BB68BE2124BFAFB007214CC /* GTMObjC2Runtime.m */,
+				7BB68BE3124BFAFB007214CC /* GTMObjC2RuntimeTest.m */,
+				7BB68BE4124BFAFB007214CC /* GTMObjectSingleton.h */,
+				7BB68BE5124BFAFB007214CC /* GTMPath.h */,
+				7BB68BE6124BFAFB007214CC /* GTMPath.m */,
+				7BB68BE7124BFAFB007214CC /* GTMPathTest.m */,
+				7BB68BE8124BFAFB007214CC /* GTMProgressMonitorInputStream.h */,
+				7BB68BE9124BFAFB007214CC /* GTMRegex.h */,
+				7BB68BEA124BFAFB007214CC /* GTMRegex.m */,
+				7BB68BEB124BFAFB007214CC /* GTMRegexTest.m */,
+				7BB68BEC124BFAFB007214CC /* GTMScriptRunner.h */,
+				7BB68BED124BFAFB007214CC /* GTMScriptRunner.m */,
+				7BB68BEE124BFAFB007214CC /* GTMScriptRunnerTest.m */,
+				7BB68BEF124BFAFB007214CC /* GTMServiceManagement.c */,
+				7BB68BF0124BFAFB007214CC /* GTMServiceManagement.h */,
+				7BB68BF1124BFAFB007214CC /* GTMServiceManagementTest.m */,
+				7BB68BF2124BFAFB007214CC /* GTMSignalHandler.h */,
+				7BB68BF3124BFAFB007214CC /* GTMSignalHandler.m */,
+				7BB68BF4124BFAFB007214CC /* GTMSignalHandlerTest.m */,
+				7BB68BF5124BFAFB007214CC /* GTMSQLite.h */,
+				7BB68BF6124BFAFB007214CC /* GTMSQLite.m */,
+				7BB68BF7124BFAFB007214CC /* GTMSQLiteTest.m */,
+				7BB68BF8124BFAFB007214CC /* GTMStackTrace.h */,
+				7BB68BF9124BFAFB007214CC /* GTMStackTrace.m */,
+				7BB68BFA124BFAFB007214CC /* GTMStackTraceTest.m */,
+				7BB68BFB124BFAFB007214CC /* GTMStringEncoding.h */,
+				7BB68BFC124BFAFB007214CC /* GTMStringEncoding.m */,
+				7BB68BFD124BFAFB007214CC /* GTMStringEncodingTest.m */,
+				7BB68BFE124BFAFB007214CC /* GTMSystemVersion.h */,
+				7BB68BFF124BFAFB007214CC /* GTMSystemVersion.m */,
+				7BB68C00124BFAFB007214CC /* GTMSystemVersionTest.m */,
+				7BB68C01124BFAFB007214CC /* GTMTransientRootPortProxy.h */,
+				7BB68C02124BFAFB007214CC /* GTMTransientRootPortProxy.m */,
+				7BB68C03124BFAFB007214CC /* GTMTransientRootPortProxyTest.m */,
+				7BB68C04124BFAFB007214CC /* GTMTransientRootProxy.h */,
+				7BB68C05124BFAFB007214CC /* GTMTransientRootProxy.m */,
+				7BB68C06124BFAFB007214CC /* GTMTransientRootProxyTest.m */,
+				7BB68C07124BFAFB007214CC /* GTMValidatingContainers.h */,
+				7BB68C08124BFAFB007214CC /* GTMValidatingContainers.m */,
+				7BB68C09124BFAFB007214CC /* GTMValidatingContainersTest.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		7BB68C0A124BFB13007214CC /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				7BB68C0B124BFB13007214CC /* GTMRoundedRectPath.h */,
+				7BB68C0C124BFB13007214CC /* GTMRoundedRectPath.m */,
+				7BB68C0D124BFB13007214CC /* GTMUIFont+LineHeight.h */,
+				7BB68C0E124BFB13007214CC /* GTMUIFont+LineHeight.m */,
+				7BB68C0F124BFB13007214CC /* GTMUIFont+LineHeightTest.m */,
+				7BB68C10124BFB13007214CC /* GTMUIImage+Resize.h */,
+				7BB68C11124BFB13007214CC /* GTMUIImage+Resize.m */,
+				7BB68C12124BFB13007214CC /* GTMUIImage+ResizeTest.m */,
+				7BB68C13124BFB13007214CC /* GTMUIView+SubtreeDescription.h */,
+				7BB68C14124BFB13007214CC /* GTMUIView+SubtreeDescription.m */,
+				7BB68C15124BFB13007214CC /* GTMUIView+SubtreeDescriptionTest.m */,
+				7BB68C16124BFB13007214CC /* TestData */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		7BB68C16124BFB13007214CC /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				7BB68C17124BFB13007214CC /* GTMUIImage+Resize_100x100.png */,
+				7BB68C18124BFB13007214CC /* GTMUIImage+Resize_100x100_to_40x60.png */,
+				7BB68C19124BFB13007214CC /* GTMUIImage+Resize_100x100_to_50x50.png */,
+				7BB68C1A124BFB13007214CC /* GTMUIImage+Resize_100x100_to_60x40.png */,
+				7BB68C1B124BFB13007214CC /* GTMUIImage+Resize_100x50.png */,
+				7BB68C1C124BFB13007214CC /* GTMUIImage+Resize_100x50_flipped.png */,
+				7BB68C1D124BFB13007214CC /* GTMUIImage+Resize_100x50_to_40x60_clip.png */,
+				7BB68C1E124BFB13007214CC /* GTMUIImage+Resize_100x50_to_40x60_noclip.png */,
+				7BB68C1F124BFB13007214CC /* GTMUIImage+Resize_100x50_to_50x50_clip.png */,
+				7BB68C20124BFB13007214CC /* GTMUIImage+Resize_100x50_to_50x50_noclip.png */,
+				7BB68C21124BFB13007214CC /* GTMUIImage+Resize_100x50_to_60x40_clip.png */,
+				7BB68C22124BFB13007214CC /* GTMUIImage+Resize_100x50_to_60x40_noclip.png */,
+				7BB68C23124BFB13007214CC /* GTMUIImage+Resize_50x100.png */,
+				7BB68C24124BFB13007214CC /* GTMUIImage+Resize_50x100_flipped.png */,
+				7BB68C25124BFB13007214CC /* GTMUIImage+Resize_50x100_to_40x60_clip.png */,
+				7BB68C26124BFB13007214CC /* GTMUIImage+Resize_50x100_to_40x60_noclip.png */,
+				7BB68C27124BFB13007214CC /* GTMUIImage+Resize_50x100_to_50x50_clip.png */,
+				7BB68C28124BFB13007214CC /* GTMUIImage+Resize_50x100_to_50x50_noclip.png */,
+				7BB68C29124BFB13007214CC /* GTMUIImage+Resize_50x100_to_60x40_clip.png */,
+				7BB68C2A124BFB13007214CC /* GTMUIImage+Resize_50x100_to_60x40_noclip.png */,
+				7BB68C2B124BFB13007214CC /* phone.png */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		7BB68C2C124BFB22007214CC /* UnitTesting */ = {
+			isa = PBXGroup;
+			children = (
+				7BB68C2D124BFB22007214CC /* GTMAppKit+UnitTesting.h */,
+				7BB68C2E124BFB22007214CC /* GTMAppKit+UnitTesting.m */,
+				7BB68C2F124BFB22007214CC /* GTMAppKitUnitTestingUtilities.h */,
+				7BB68C30124BFB22007214CC /* GTMAppKitUnitTestingUtilities.m */,
+				7BB68C31124BFB22007214CC /* GTMCALayer+UnitTesting.h */,
+				7BB68C32124BFB22007214CC /* GTMCALayer+UnitTesting.m */,
+				7BB68C33124BFB22007214CC /* GTMDevLogUnitTestingBridge.m */,
+				7BB68C34124BFB22007214CC /* GTMFoundationUnitTestingUtilities.h */,
+				7BB68C35124BFB22007214CC /* GTMFoundationUnitTestingUtilities.m */,
+				7BB68C36124BFB22007214CC /* GTMIPhoneUnitTestDelegate.h */,
+				7BB68C37124BFB22007214CC /* GTMIPhoneUnitTestDelegate.m */,
+				7BB68C38124BFB22007214CC /* GTMIPhoneUnitTestMain.m */,
+				7BB68C39124BFB22007214CC /* GTMNSObject+BindingUnitTesting.h */,
+				7BB68C3A124BFB22007214CC /* GTMNSObject+BindingUnitTesting.m */,
+				7BB68C3B124BFB22007214CC /* GTMNSObject+UnitTesting.h */,
+				7BB68C3C124BFB22007214CC /* GTMNSObject+UnitTesting.m */,
+				7BB68C3D124BFB22007214CC /* GTMSenTestCase.h */,
+				7BB68C3E124BFB22007214CC /* GTMSenTestCase.m */,
+				7BB68C3F124BFB22007214CC /* GTMTestTimer.h */,
+				7BB68C40124BFB22007214CC /* GTMTestTimerTest.m */,
+				7BB68C41124BFB22007214CC /* GTMUIKit+UnitTesting.h */,
+				7BB68C42124BFB22007214CC /* GTMUIKit+UnitTesting.m */,
+				7BB68C43124BFB22007214CC /* GTMUIKit+UnitTestingTest.m */,
+				7BB68C44124BFB22007214CC /* GTMUIUnitTestingHarness */,
+				7BB68C4B124BFB22007214CC /* GTMUIViewUnitTestingTest.png */,
+				7BB68C4C124BFB22007214CC /* GTMUnitTestDevLog.h */,
+				7BB68C4D124BFB22007214CC /* GTMUnitTestDevLog.m */,
+				7BB68C4E124BFB22007214CC /* GTMUnitTestingBindingTest.m */,
+				7BB68C4F124BFB22007214CC /* GTMUnitTestingTest.h */,
+				7BB68C50124BFB22007214CC /* GTMUnitTestingTest.m */,
+				7BB68C51124BFB22007214CC /* RunIPhoneLaunchDaemons.sh */,
+				7BB68C52124BFB22007214CC /* RunIPhoneUnitTest.sh */,
+				7BB68C53124BFB22007214CC /* RunMacOSUnitTests.sh */,
+				7BB68C54124BFB22007214CC /* TestData */,
+			);
+			path = UnitTesting;
+			sourceTree = "<group>";
+		};
+		7BB68C44124BFB22007214CC /* GTMUIUnitTestingHarness */ = {
+			isa = PBXGroup;
+			children = (
+				7BB68C45124BFB22007214CC /* Localizable.strings */,
+				7BB68C47124BFB22007214CC /* MainMenu.xib */,
+				7BB68C49124BFB22007214CC /* Info.plist */,
+				7BB68C4A124BFB22007214CC /* main.m */,
+			);
+			path = GTMUIUnitTestingHarness;
+			sourceTree = "<group>";
+		};
+		7BB68C54124BFB22007214CC /* TestData */ = {
+			isa = PBXGroup;
+			children = (
+				7BB68C55124BFB22007214CC /* GTMUIViewUnitTestingTest.gtmUTState */,
+				7BB68C56124BFB22007214CC /* GTMUIViewUnitTestingTest.png */,
+				7BB68C57124BFB22007214CC /* GTMUnitTestingImage.10.6.tiff */,
+				7BB68C58124BFB22007214CC /* GTMUnitTestingImage.gtmUTState */,
+				7BB68C59124BFB22007214CC /* GTMUnitTestingImage.tiff */,
+				7BB68C5A124BFB22007214CC /* GTMUnitTestingTest.nib */,
+				7BB68C5B124BFB22007214CC /* GTMUnitTestingTestApp.10.6.gtmUTState */,
+				7BB68C5C124BFB22007214CC /* GTMUnitTestingTestApp.gtmUTState */,
+				7BB68C5D124BFB22007214CC /* GTMUnitTestingView.10.6.tiff */,
+				7BB68C5E124BFB22007214CC /* GTMUnitTestingView.tiff */,
+				7BB68C5F124BFB22007214CC /* GTMUnitTestingWindow.10.5.6.tiff */,
+				7BB68C60124BFB22007214CC /* GTMUnitTestingWindow.10.5.7.tiff */,
+				7BB68C61124BFB22007214CC /* GTMUnitTestingWindow.10.5.8.tiff */,
+				7BB68C62124BFB22007214CC /* GTMUnitTestingWindow.10.6.gtmUTState */,
+				7BB68C63124BFB22007214CC /* GTMUnitTestingWindow.10.6.tiff */,
+				7BB68C64124BFB22007214CC /* GTMUnitTestingWindow.gtmUTState */,
+				7BB68C65124BFB22007214CC /* GTMUnitTestingWindow.tiff */,
+			);
+			path = TestData;
+			sourceTree = "<group>";
+		};
+		7BB68CA5124BFD07007214CC /* GTMUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				7BB68CA7124BFD51007214CC /* DiceGameViewControllerGTMTest.m */,
+				7BB68CAA124BFDA5007214CC /* GameGTMTest.m */,
+				7BB68CE4124BFE65007214CC /* OCMockGTMTest.m */,
+			);
+			name = GTMUnitTest;
+			sourceTree = "<group>";
+		};
+		7BB68D85124C08AA007214CC /* UISpec */ = {
+			isa = PBXGroup;
+			children = (
+				7BB68D86124C08D0007214CC /* CallCache.h */,
+				7BB68D87124C08D0007214CC /* NSNumberCreator.h */,
+				7BB68D88124C08D0007214CC /* Recordable.h */,
+				7BB68D89124C08D0007214CC /* ReturnCacher.h */,
+				7BB68D8A124C08D0007214CC /* UIBug.h */,
+				7BB68D8B124C08D0007214CC /* UIChildren.h */,
+				7BB68D8C124C08D0007214CC /* UIConsole.h */,
+				7BB68D8D124C08D0007214CC /* UIConsoleLog.h */,
+				7BB68D8E124C08D0007214CC /* UIDescendants.h */,
+				7BB68D8F124C08D0007214CC /* UIExpectation.h */,
+				7BB68D90124C08D0007214CC /* UIFilter.h */,
+				7BB68D91124C08D0007214CC /* UIInspector.h */,
+				7BB68D92124C08D0007214CC /* UILog.h */,
+				7BB68D93124C08D0007214CC /* UIMatcher.h */,
+				7BB68D94124C08D0007214CC /* UIParents.h */,
+				7BB68D95124C08D0007214CC /* UIProxy.h */,
+				7BB68D96124C08D0007214CC /* UIQuery.h */,
+				7BB68D97124C08D0007214CC /* UIQueryAll.h */,
+				7BB68D98124C08D0007214CC /* UIQueryExpectation.h */,
+				7BB68D99124C08D0007214CC /* UIQuerySearchBar.h */,
+				7BB68D9A124C08D0007214CC /* UIQuerySegmentedControl.h */,
+				7BB68D9B124C08D0007214CC /* UIQueryTabBar.h */,
+				7BB68D9C124C08D0007214CC /* UIQueryTableView.h */,
+				7BB68D9D124C08D0007214CC /* UIQueryTableViewCell.h */,
+				7BB68D9E124C08D0007214CC /* UIQueryWebView.h */,
+				7BB68D9F124C08D0007214CC /* UIRedoer.h */,
+				7BB68DA0124C08D0007214CC /* UISpec.h */,
+				7BB68DA1124C08D0007214CC /* ViewFilterSwizzler.h */,
+				7BB68DA2124C08D0007214CC /* WaitUntilIdle.h */,
+			);
+			name = UISpec;
+			sourceTree = "<group>";
+		};
+		7BB68DE7124C0D0B007214CC /* UISpecDescribes */ = {
+			isa = PBXGroup;
+			children = (
+				7BB68DE9124C0D3B007214CC /* DescribeDiceGameViewControllerEnablement.m */,
+				7BC87EEA124C1D4F00AD91F8 /* DescribeDiceGameViewControllerTextFields.m */,
+			);
+			name = UISpecDescribes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,6 +976,41 @@
 			productReference = 7B6548E6124BA4010049E82C /* DiceGame.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7BB68C6F124BFB89007214CC /* GTMUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB68C75124BFB89007214CC /* Build configuration list for PBXNativeTarget "GTMUnitTest" */;
+			buildPhases = (
+				7BB68C6C124BFB89007214CC /* Resources */,
+				7BB68C6D124BFB89007214CC /* Sources */,
+				7BB68C6E124BFB89007214CC /* Frameworks */,
+				7BB68C9F124BFCD6007214CC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GTMUnitTest;
+			productName = GTMUnitTest;
+			productReference = 7BB68C70124BFB89007214CC /* GTMUnitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7BB68D6D124C083F007214CC /* DiceGameUISpec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BB68D7C124C083F007214CC /* Build configuration list for PBXNativeTarget "DiceGameUISpec" */;
+			buildPhases = (
+				7BB68D6E124C083F007214CC /* Resources */,
+				7BB68D71124C083F007214CC /* Sources */,
+				7BB68D78124C083F007214CC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DiceGameUISpec;
+			productName = DiceGame;
+			productReference = 7BB68D7F124C083F007214CC /* DiceGame.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -311,6 +1034,8 @@
 				7B654512124B8BAD0049E82C /* BuiltInLogicUnitTest */,
 				7B6547A5124B977A0049E82C /* BuiltInApplicationUnitTest */,
 				7B6548D4124BA4010049E82C /* DiceGameBuiltInApplicationUnitTest */,
+				7BB68C6F124BFB89007214CC /* GTMUnitTest */,
+				7BB68D6D124C083F007214CC /* DiceGameUISpec */,
 			);
 		};
 /* End PBXProject section */
@@ -349,6 +1074,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7BB68C6C124BFB89007214CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB68CDE124BFE45007214CC /* DiceGameViewController.xib in Resources */,
+				7BB68CDF124BFE45007214CC /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB68D6E124C083F007214CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB68D6F124C083F007214CC /* MainWindow.xib in Resources */,
+				7BB68D70124C083F007214CC /* DiceGameViewController.xib in Resources */,
+				7BB68DA4124C08E1007214CC /* UISpec.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -365,6 +1109,19 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\" 1> /tmp/RunUnitTests.out\n";
 		};
+		7BB68C9F124BFCD6007214CC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PROJECT_DIR}/GTM/UnitTesting/RunIPhoneUnitTest.sh";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -372,12 +1129,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* DiceGameAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* DiceGameViewController.m in Sources */,
 				7BF056D9124B155B00E5B1EF /* Die.m in Sources */,
 				7BF056DF124B163900E5B1EF /* Round.m in Sources */,
 				7BF056E2124B178900E5B1EF /* Game.m in Sources */,
+				7BC8801F124C2DBC00AD91F8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -389,6 +1146,7 @@
 				7B65484F124B9B430049E82C /* Round.m in Sources */,
 				7BB68AA0124BEB11007214CC /* GameTest.m in Sources */,
 				7BB68AAE124BECC7007214CC /* Game.m in Sources */,
+				7BB68D3F124C022D007214CC /* Die.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,12 +1168,48 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B6548D9124BA4010049E82C /* main.m in Sources */,
 				7B6548DA124BA4010049E82C /* DiceGameAppDelegate.m in Sources */,
 				7B6548DB124BA4010049E82C /* DiceGameViewController.m in Sources */,
 				7B6548DC124BA4010049E82C /* Die.m in Sources */,
 				7B6548DD124BA4010049E82C /* Round.m in Sources */,
 				7B6548DE124BA4010049E82C /* Game.m in Sources */,
+				7BB68DB3124C0AAC007214CC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB68C6D124BFB89007214CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB68C89124BFC26007214CC /* GTMIPhoneUnitTestMain.m in Sources */,
+				7BB68C8D124BFC31007214CC /* GTMIPhoneUnitTestDelegate.m in Sources */,
+				7BB68C91124BFC3B007214CC /* GTMSenTestCase.m in Sources */,
+				7BB68C95124BFC49007214CC /* GTMUnitTestDevLog.m in Sources */,
+				7BB68C99124BFCBF007214CC /* GTMObjC2Runtime.m in Sources */,
+				7BB68C9A124BFCBF007214CC /* GTMRegex.m in Sources */,
+				7BB68CA8124BFD51007214CC /* DiceGameViewControllerGTMTest.m in Sources */,
+				7BB68CAB124BFDA5007214CC /* GameGTMTest.m in Sources */,
+				7BB68CB5124BFE06007214CC /* DiceGameAppDelegate.m in Sources */,
+				7BB68CB6124BFE06007214CC /* DiceGameViewController.m in Sources */,
+				7BB68CB7124BFE06007214CC /* Game.m in Sources */,
+				7BB68CBF124BFE1E007214CC /* Die.m in Sources */,
+				7BB68CC0124BFE1E007214CC /* Round.m in Sources */,
+				7BB68CE5124BFE65007214CC /* OCMockGTMTest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7BB68D71124C083F007214CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB68D73124C083F007214CC /* DiceGameAppDelegate.m in Sources */,
+				7BB68D74124C083F007214CC /* DiceGameViewController.m in Sources */,
+				7BB68D75124C083F007214CC /* Die.m in Sources */,
+				7BB68D76124C083F007214CC /* Round.m in Sources */,
+				7BB68D77124C083F007214CC /* Game.m in Sources */,
+				7BB68DB2124C0A89007214CC /* main-uispec.m in Sources */,
+				7BB68DEA124C0D3B007214CC /* DescribeDiceGameViewControllerEnablement.m in Sources */,
+				7BC87EEB124C1D4F00AD91F8 /* DescribeDiceGameViewControllerTextFields.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +1222,25 @@
 			targetProxy = 7B6548E9124BA42C0049E82C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7BB68C45124BFB22007214CC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB68C46124BFB22007214CC /* English */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		7BB68C47124BFB22007214CC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7BB68C48124BFB22007214CC /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
@@ -472,7 +1285,12 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "BuiltInUnitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-framework",
 					Foundation,
 					"-framework",
@@ -500,7 +1318,12 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				INFOPLIST_FILE = "BuiltInUnitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-framework",
 					Foundation,
 					"-framework",
@@ -527,7 +1350,12 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = "BuiltInApplicationUnitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-framework",
 					Foundation,
 					"-framework",
@@ -552,7 +1380,12 @@
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				INFOPLIST_FILE = "BuiltInApplicationUnitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				OTHER_LDFLAGS = (
+					"$(inherited)",
 					"-framework",
 					Foundation,
 					"-framework",
@@ -577,6 +1410,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DiceGame_Prefix.pch;
 				INFOPLIST_FILE = "DiceGameBuiltInApplicationUnitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = DiceGame;
 			};
 			name = Debug;
@@ -589,6 +1426,110 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DiceGame_Prefix.pch;
 				INFOPLIST_FILE = "DiceGameBuiltInApplicationUnitTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+				);
+				PRODUCT_NAME = DiceGame;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BB68C73124BFB89007214CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "GTMUnitTest-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+					"\"$(SRCROOT)/UISpec\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GTMUnitTest;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		7BB68C74124BFB89007214CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "GTMUnitTest-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/OCMock\"",
+					"\"$(SRCROOT)/UISpec\"",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = GTMUnitTest;
+				SDKROOT = iphoneos4.1;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		7BB68D7D124C083F007214CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DiceGame_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "DiceGameUISpec-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/UISpec\"",
+					"\"$(SRCROOT)/OCMock\"",
+				);
+				PRODUCT_NAME = DiceGame;
+			};
+			name = Debug;
+		};
+		7BB68D7E124C083F007214CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DiceGame_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "DiceGameUISpec-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/UISpec\"",
+					"\"$(SRCROOT)/OCMock\"",
+				);
 				PRODUCT_NAME = DiceGame;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -602,9 +1543,15 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.1;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Classes $(PROJECT_DIR)/GTM";
 			};
 			name = Debug;
 		};
@@ -616,10 +1563,16 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)";
 				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos4.1;
+				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Classes $(PROJECT_DIR)/GTM";
 			};
 			name = Release;
 		};
@@ -658,6 +1611,24 @@
 			buildConfigurations = (
 				7B6548E4124BA4010049E82C /* Debug */,
 				7B6548E5124BA4010049E82C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB68C75124BFB89007214CC /* Build configuration list for PBXNativeTarget "GTMUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB68C73124BFB89007214CC /* Debug */,
+				7BB68C74124BFB89007214CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BB68D7C124C083F007214CC /* Build configuration list for PBXNativeTarget "DiceGameUISpec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BB68D7D124C083F007214CC /* Debug */,
+				7BB68D7E124C083F007214CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

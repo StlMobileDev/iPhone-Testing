@@ -7,7 +7,6 @@
 //
 
 #import "DiceGameViewController.h"
-#import "Die.h"
 #import "Round.h"
 #import "Game.h"
 
@@ -36,7 +35,6 @@
 
 @property (nonatomic, retain) Game *game;
 @property (nonatomic, retain) Round *round;
-@property (nonatomic, retain) Die *die;
 
 - (void) finishRoundIfNecessary;
 - (void) updateUi;

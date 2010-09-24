@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Die.h"
 
 @interface DiceGameViewController : UIViewController {
 
@@ -22,6 +23,9 @@
 @property (nonatomic, retain) IBOutlet UITextField *roundsPlayedTextField;
 @property (nonatomic, retain) IBOutlet UITextField *roundsWonTextField;
 @property (nonatomic, retain) IBOutlet UITextField *winPercentageTextField;
+
+// for testing only
+@property (nonatomic, retain) Die *die;
 
 - (IBAction) topRollButtonPressed;
 - (IBAction) bottomRollButtonPressed;
