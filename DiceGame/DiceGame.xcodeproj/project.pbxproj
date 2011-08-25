@@ -16,19 +16,8 @@
 		28D7ACF80DDB3853001CB0EB /* DiceGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DiceGameViewController.m */; };
 		7B654593124B931C0049E82C /* RoundTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B654592124B931C0049E82C /* RoundTest.m */; };
 		7B6547AB124B97900049E82C /* DiceGameAppDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6545CC124B95930049E82C /* DiceGameAppDelegateTest.m */; };
-		7B6547AC124B97900049E82C /* DiceGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DiceGameAppDelegate.m */; };
-		7B654845124B9B320049E82C /* DiceGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DiceGameViewController.m */; };
-		7B654846124B9B320049E82C /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
-		7B654847124B9B320049E82C /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
-		7B654848124B9B320049E82C /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
-		7B65484F124B9B430049E82C /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
 		7B6548D6124BA4010049E82C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		7B6548D7124BA4010049E82C /* DiceGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DiceGameViewController.xib */; };
-		7B6548DA124BA4010049E82C /* DiceGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DiceGameAppDelegate.m */; };
-		7B6548DB124BA4010049E82C /* DiceGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DiceGameViewController.m */; };
-		7B6548DC124BA4010049E82C /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
-		7B6548DD124BA4010049E82C /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
-		7B6548DE124BA4010049E82C /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
 		7B6548E0124BA4010049E82C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		7B6548E1124BA4010049E82C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		7B6548E2124BA4010049E82C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
@@ -37,7 +26,6 @@
 		7B9D57BA124C478100C48D81 /* libOCMock-sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB68D58124C02FF007214CC /* libOCMock-sim.a */; };
 		7BB68A84124BE7F3007214CC /* DiceGameViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68A83124BE7F3007214CC /* DiceGameViewControllerTest.m */; };
 		7BB68AA0124BEB11007214CC /* GameTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68A9F124BEB11007214CC /* GameTest.m */; };
-		7BB68AAE124BECC7007214CC /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
 		7BB68C89124BFC26007214CC /* GTMIPhoneUnitTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68C38124BFB22007214CC /* GTMIPhoneUnitTestMain.m */; };
 		7BB68C8D124BFC31007214CC /* GTMIPhoneUnitTestDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68C37124BFB22007214CC /* GTMIPhoneUnitTestDelegate.m */; };
 		7BB68C91124BFC3B007214CC /* GTMSenTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68C3E124BFB22007214CC /* GTMSenTestCase.m */; };
@@ -54,7 +42,6 @@
 		7BB68CDE124BFE45007214CC /* DiceGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DiceGameViewController.xib */; };
 		7BB68CDF124BFE45007214CC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		7BB68CE5124BFE65007214CC /* OCMockGTMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68CE4124BFE65007214CC /* OCMockGTMTest.m */; };
-		7BB68D3F124C022D007214CC /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
 		7BB68D6F124C083F007214CC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		7BB68D70124C083F007214CC /* DiceGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DiceGameViewController.xib */; };
 		7BB68D73124C083F007214CC /* DiceGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DiceGameAppDelegate.m */; };
@@ -72,6 +59,19 @@
 		7BB68DEA124C0D3B007214CC /* DescribeDiceGameViewControllerEnablement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68DE9124C0D3B007214CC /* DescribeDiceGameViewControllerEnablement.m */; };
 		7BC87EEB124C1D4F00AD91F8 /* DescribeDiceGameViewControllerTextFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC87EEA124C1D4F00AD91F8 /* DescribeDiceGameViewControllerTextFields.m */; };
 		7BC8801F124C2DBC00AD91F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		7BE4866D1406E2D6008804EE /* OCMockApplicationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68AD6124BEFD4007214CC /* OCMockApplicationTest.m */; };
+		7BE4866E1406E2DA008804EE /* OCMockLogicTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68AB7124BEE79007214CC /* OCMockLogicTest.m */; };
+		7BE4866F1406E315008804EE /* libOCMock-sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB68D58124C02FF007214CC /* libOCMock-sim.a */; };
+		7BE4867A1406E794008804EE /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
+		7BE4867B1406E794008804EE /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
+		7BE4867C1406E794008804EE /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
+		7BE4867F1406EA4A008804EE /* libOCMock-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB68D57124C02FF007214CC /* libOCMock-dev.a */; };
+		7BE486841406EAC6008804EE /* DiceGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DiceGameAppDelegate.m */; };
+		7BE486851406EAC6008804EE /* DiceGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DiceGameViewController.m */; };
+		7BE486861406EAC6008804EE /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
+		7BE486871406EAC6008804EE /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
+		7BE486881406EAC6008804EE /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
+		7BE486891406ED9F008804EE /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
 		7BF056D9124B155B00E5B1EF /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
 		7BF056DF124B163900E5B1EF /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
 		7BF056E2124B178900E5B1EF /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
@@ -382,7 +382,6 @@
 		7BB68DB1124C0A89007214CC /* main-uispec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "main-uispec.m"; sourceTree = "<group>"; };
 		7BB68DE9124C0D3B007214CC /* DescribeDiceGameViewControllerEnablement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeDiceGameViewControllerEnablement.m; sourceTree = "<group>"; };
 		7BC87EEA124C1D4F00AD91F8 /* DescribeDiceGameViewControllerTextFields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeDiceGameViewControllerTextFields.m; sourceTree = "<group>"; };
-		7BC87FD1124C290800AD91F8 /* MyGTMUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyGTMUnitTest-Info.plist"; sourceTree = "<group>"; };
 		7BF056D7124B155B00E5B1EF /* Die.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Die.h; sourceTree = "<group>"; };
 		7BF056D8124B155B00E5B1EF /* Die.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Die.m; sourceTree = "<group>"; };
 		7BF056DD124B163900E5B1EF /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
@@ -407,6 +406,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE4866F1406E315008804EE /* libOCMock-sim.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +414,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE4867F1406EA4A008804EE /* libOCMock-dev.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,7 +497,6 @@
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				7BB68C72124BFB89007214CC /* GTMUnitTest-Info.plist */,
-				7BC87FD1124C290800AD91F8 /* MyGTMUnitTest-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -1016,6 +1016,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DiceGame" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -1143,10 +1146,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B654593124B931C0049E82C /* RoundTest.m in Sources */,
-				7B65484F124B9B430049E82C /* Round.m in Sources */,
 				7BB68AA0124BEB11007214CC /* GameTest.m in Sources */,
-				7BB68AAE124BECC7007214CC /* Game.m in Sources */,
-				7BB68D3F124C022D007214CC /* Die.m in Sources */,
+				7BE4866E1406E2DA008804EE /* OCMockLogicTest.m in Sources */,
+				7BE4867A1406E794008804EE /* Die.m in Sources */,
+				7BE4867B1406E794008804EE /* Round.m in Sources */,
+				7BE4867C1406E794008804EE /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1155,12 +1159,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B6547AB124B97900049E82C /* DiceGameAppDelegateTest.m in Sources */,
-				7B6547AC124B97900049E82C /* DiceGameAppDelegate.m in Sources */,
-				7B654845124B9B320049E82C /* DiceGameViewController.m in Sources */,
-				7B654846124B9B320049E82C /* Die.m in Sources */,
-				7B654847124B9B320049E82C /* Round.m in Sources */,
-				7B654848124B9B320049E82C /* Game.m in Sources */,
 				7BB68A84124BE7F3007214CC /* DiceGameViewControllerTest.m in Sources */,
+				7BE4866D1406E2D6008804EE /* OCMockApplicationTest.m in Sources */,
+				7BE486841406EAC6008804EE /* DiceGameAppDelegate.m in Sources */,
+				7BE486851406EAC6008804EE /* DiceGameViewController.m in Sources */,
+				7BE486861406EAC6008804EE /* Die.m in Sources */,
+				7BE486871406EAC6008804EE /* Round.m in Sources */,
+				7BE486881406EAC6008804EE /* Game.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1168,12 +1173,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B6548DA124BA4010049E82C /* DiceGameAppDelegate.m in Sources */,
-				7B6548DB124BA4010049E82C /* DiceGameViewController.m in Sources */,
-				7B6548DC124BA4010049E82C /* Die.m in Sources */,
-				7B6548DD124BA4010049E82C /* Round.m in Sources */,
-				7B6548DE124BA4010049E82C /* Game.m in Sources */,
 				7BB68DB3124C0AAC007214CC /* main.m in Sources */,
+				7BE486891406ED9F008804EE /* Die.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1252,6 +1253,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DiceGame_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "DiceGame-Info.plist";
 				PRODUCT_NAME = DiceGame;
 			};
@@ -1264,6 +1266,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DiceGame_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "DiceGame-Info.plist";
 				PRODUCT_NAME = DiceGame;
 				VALIDATE_PRODUCT = YES;
@@ -1274,16 +1277,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "BuiltInUnitTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1298,7 +1300,6 @@
 					"-framework",
 					UIKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = BuiltInUnitTest;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -1308,15 +1309,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "BuiltInUnitTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1331,7 +1331,6 @@
 					"-framework",
 					UIKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = BuiltInUnitTest;
 				WRAPPER_EXTENSION = octest;
 				ZERO_LINK = NO;
@@ -1342,13 +1341,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "BuiltInApplicationUnitTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1363,7 +1361,6 @@
 					"-framework",
 					UIKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = BuiltInApplicationUnitTest;
 				WRAPPER_EXTENSION = octest;
 			};
@@ -1373,12 +1370,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "BuiltInApplicationUnitTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1393,7 +1389,6 @@
 					"-framework",
 					UIKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = BuiltInApplicationUnitTest;
 				WRAPPER_EXTENSION = octest;
 				ZERO_LINK = NO;
@@ -1409,6 +1404,8 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DiceGame_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "DiceGameBuiltInApplicationUnitTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1425,6 +1422,8 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DiceGame_Prefix.pch;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "DiceGameBuiltInApplicationUnitTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1439,12 +1438,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "GTMUnitTest-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
@@ -1459,9 +1458,8 @@
 					"-framework",
 					UIKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = GTMUnitTest;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -1469,12 +1467,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "GTMUnitTest-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
@@ -1489,9 +1486,8 @@
 					"-framework",
 					UIKit,
 				);
-				PREBINDING = NO;
 				PRODUCT_NAME = GTMUnitTest;
-				SDKROOT = iphoneos4.1;
+				SDKROOT = iphoneos;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -1506,6 +1502,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DiceGame_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "DiceGameUISpec-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1524,6 +1521,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = DiceGame_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "DiceGameUISpec-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1539,7 +1537,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1549,8 +1547,8 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Classes $(PROJECT_DIR)/GTM";
 			};
 			name = Debug;
@@ -1559,7 +1557,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
@@ -1570,8 +1568,8 @@
 					"-ObjC",
 					"-all_load",
 				);
-				PREBINDING = NO;
-				SDKROOT = iphoneos4.1;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 				USER_HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/Classes $(PROJECT_DIR)/GTM";
 			};
 			name = Release;
