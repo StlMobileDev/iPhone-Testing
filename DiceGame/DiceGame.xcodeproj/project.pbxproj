@@ -71,7 +71,6 @@
 		7BE486861406EAC6008804EE /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
 		7BE486871406EAC6008804EE /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
 		7BE486881406EAC6008804EE /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
-		7BE486891406ED9F008804EE /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
 		7BF056D9124B155B00E5B1EF /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
 		7BF056DF124B163900E5B1EF /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
 		7BF056E2124B178900E5B1EF /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
@@ -1174,7 +1173,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BB68DB3124C0AAC007214CC /* main.m in Sources */,
-				7BE486891406ED9F008804EE /* Die.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
