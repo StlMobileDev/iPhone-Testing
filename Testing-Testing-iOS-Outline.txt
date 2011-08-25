@@ -1,0 +1,92 @@
+Sections:
+-Intro
+--iOS development tips
+--developer.apple.com/ios
+--Stackoverflow
+-Reasoning
+--Why Test Automatically
+--Why Unit Test
+--Why Integration Test
+--Why Interaction Test
+--Why Mock
+--Evaluation
+---Ease of use for writing tests
+---Error reporting
+---Debugging
+---Integration with Xcode
+---Integration with the command line
+-Unit
+--OCUnit
+---Setup
+http://developer.apple.com/tools/unittest.html
+----Logic
+----Application
+-----A source file can only exist in the either the test bundle or the Application Host bundle.  When you duplicate your app's target to make the Application Host, all of your sources will exist in the Application Host.  When a test requires a source, you must remove it from your Application Host before adding it to the test bundle or you'll see an error like this:
+objc[13130]: Class Die is implemented in both /var/mobile/Applications/8B61A346-2BD5-4659-B23C-C8AEA5C9B418/DiceGame.app/DiceGame and /private/var/mobile/Applications/8B61A346-2BD5-4659-B23C-C8AEA5C9B418/DiceGame.app/BuiltInApplicationUnitTest.octest/BuiltInApplicationUnitTest. One of the two will be used. Which one is undefined.
+And it can manifest itself as errors like this:
+http://stackoverflow.com/questions/5364074/iskindofclass-and-nsstringfromclass-disagree-about-uiapplicationdelegate
+---Write a test
+----a test method starts with "test", takes no argument
+---Running
+----http://stackoverflow.com/questions/1568992/does-ocunit-allow-application-tests-to-be-run-on-the-iphone-simulator
+----Logic Tests
+-----Use the "Test" scheme only in the Simulator, not on device
+-----Can't use UIKit, not sure about other limitations
+----Application Tests
+-----Use the "Run" scheme only on device, not in simulator
+---Errors
+----Logic Tests
+-----Errors are reported within the Issue Navigator and in your source file as well as in the console output.
+-----Errors in source editor stay around until the test passes.
+----Application Tests
+-----Errors are only reported in console output.
+---Debugging
+----Logic Tests
+-----Easy, just set a breakpoint and run your tests again
+----Application Tests
+-----Can't debug.  I haven't found an answer to this problem.
+---Command Line
+----Logic
+-----For JUnit-style output: https://github.com/sanemat/BPOCUnitXMLReporter
+----Application Tests
+-----Application Tests only run on device and thus can't be run or triggered from the command line.
+------http://developer.apple.com/library/ios/#documentation/Xcode/Conceptual/iphone_development/135-Unit_Testing_Applications/unit_testing_applications.html
+--GTM
+---Setup
+---Write a test
+---Running
+---Errors
+---Debugging
+----Open the "Run Script" build phase and comment out your 
+---Command Line
+--GHUnit
+---Setup
+---Write a test
+---Running
+---Errors
+---Debugging
+---Command Line
+-Interaction
+--UIAutomation
+---Setup
+---Write a test
+---Running
+---Errors
+---Debugging
+---Command Line
+--UISpec
+---Setup
+---Write a test
+---Running
+---Errors
+---Debugging
+---Command Line
+--KIF
+---Setup
+---Write a test
+---Running
+---Errors
+---Debugging
+---Command Line
+-Mocking
+-Custom Assertions
