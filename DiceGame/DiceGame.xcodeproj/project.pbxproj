@@ -71,6 +71,9 @@
 		7BE486861406EAC6008804EE /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
 		7BE486871406EAC6008804EE /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
 		7BE486881406EAC6008804EE /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
+		7BE486911406FBBF008804EE /* BPOCUnitXMLReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE486901406FBBF008804EE /* BPOCUnitXMLReporter.m */; };
+		7BE486941406FD44008804EE /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE486931406FD44008804EE /* GDataXMLNode.m */; };
+		7BE486961406FD88008804EE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE486951406FD88008804EE /* libxml2.dylib */; };
 		7BF056D9124B155B00E5B1EF /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
 		7BF056DF124B163900E5B1EF /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
 		7BF056E2124B178900E5B1EF /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
@@ -381,6 +384,10 @@
 		7BB68DB1124C0A89007214CC /* main-uispec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "main-uispec.m"; sourceTree = "<group>"; };
 		7BB68DE9124C0D3B007214CC /* DescribeDiceGameViewControllerEnablement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeDiceGameViewControllerEnablement.m; sourceTree = "<group>"; };
 		7BC87EEA124C1D4F00AD91F8 /* DescribeDiceGameViewControllerTextFields.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescribeDiceGameViewControllerTextFields.m; sourceTree = "<group>"; };
+		7BE486901406FBBF008804EE /* BPOCUnitXMLReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPOCUnitXMLReporter.m; sourceTree = "<group>"; };
+		7BE486921406FD44008804EE /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		7BE486931406FD44008804EE /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		7BE486951406FD88008804EE /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		7BF056D7124B155B00E5B1EF /* Die.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Die.h; sourceTree = "<group>"; };
 		7BF056D8124B155B00E5B1EF /* Die.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Die.m; sourceTree = "<group>"; };
 		7BF056DD124B163900E5B1EF /* Round.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Round.h; sourceTree = "<group>"; };
@@ -405,6 +412,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BE486961406FD88008804EE /* libxml2.dylib in Frameworks */,
 				7BE4866F1406E315008804EE /* libOCMock-sim.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -495,7 +503,6 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
-				7BB68C72124BFB89007214CC /* GTMUnitTest-Info.plist */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -520,6 +527,7 @@
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* DiceGame-Info.plist */,
 				7B6548E8124BA4010049E82C /* DiceGameBuiltInApplicationUnitTest-Info.plist */,
+				7BB68C72124BFB89007214CC /* GTMUnitTest-Info.plist */,
 				7BB68D82124C083F007214CC /* DiceGameUISpec-Info.plist */,
 			);
 			name = Resources;
@@ -530,6 +538,7 @@
 			children = (
 				7BB68D57124C02FF007214CC /* libOCMock-dev.a */,
 				7BB68D58124C02FF007214CC /* libOCMock-sim.a */,
+				7BE486951406FD88008804EE /* libxml2.dylib */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -541,9 +550,12 @@
 		7B654590124B93030049E82C /* BuiltInLogicUnitTest */ = {
 			isa = PBXGroup;
 			children = (
+				7BE486901406FBBF008804EE /* BPOCUnitXMLReporter.m */,
 				7B654592124B931C0049E82C /* RoundTest.m */,
 				7BB68A9F124BEB11007214CC /* GameTest.m */,
 				7BB68AB7124BEE79007214CC /* OCMockLogicTest.m */,
+				7BE486921406FD44008804EE /* GDataXMLNode.h */,
+				7BE486931406FD44008804EE /* GDataXMLNode.m */,
 			);
 			name = BuiltInLogicUnitTest;
 			sourceTree = "<group>";
@@ -1150,6 +1162,8 @@
 				7BE4867A1406E794008804EE /* Die.m in Sources */,
 				7BE4867B1406E794008804EE /* Round.m in Sources */,
 				7BE4867C1406E794008804EE /* Game.m in Sources */,
+				7BE486911406FBBF008804EE /* BPOCUnitXMLReporter.m in Sources */,
+				7BE486941406FD44008804EE /* GDataXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1284,6 +1298,10 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "BuiltInUnitTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1297,6 +1315,7 @@
 					SenTestingKit,
 					"-framework",
 					UIKit,
+					"-lxml2",
 				);
 				PRODUCT_NAME = BuiltInUnitTest;
 				WRAPPER_EXTENSION = octest;
@@ -1315,6 +1334,10 @@
 				);
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				HEADER_SEARCH_PATHS = (
+					"$(PROJECT_DIR)",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = "BuiltInUnitTest-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1328,6 +1351,7 @@
 					SenTestingKit,
 					"-framework",
 					UIKit,
+					"-lxml2",
 				);
 				PRODUCT_NAME = BuiltInUnitTest;
 				WRAPPER_EXTENSION = octest;
