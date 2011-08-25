@@ -39,8 +39,10 @@
 	STAssertTrue(diceGameViewController.bottomRollButton.enabled, @"");
 }
 
+/*
 - (void) testFail {
     STFail(@"This will show a failure");
 }
+ */
 
 @end

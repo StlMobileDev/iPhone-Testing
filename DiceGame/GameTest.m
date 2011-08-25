@@ -68,8 +68,10 @@
 	STAssertEqualObjects(testObject.roundWinPercentage, @"33", @"");
 }
 
+/*
 - (void) testFailure {
     STFail(@"This will show a failure");
 }
+ */
 
 @end
