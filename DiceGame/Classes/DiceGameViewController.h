@@ -1,13 +1,7 @@
-//
-//  DiceGameViewController.h
-//  DiceGame
-//
-//  Created by Heath Borders on 9/22/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
-#import "Die.h"
+
+@class Die;
 
 @interface DiceGameViewController : UIViewController {
 
