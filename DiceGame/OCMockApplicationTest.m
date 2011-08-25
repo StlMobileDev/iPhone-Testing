@@ -15,9 +15,9 @@
 - (void) testThatOCMockWorksAsALogicTest {
 	id mockDie = [OCMockObject mockForClass:[Die class]];
 	
-	[[mockDie expect] value];
-	
-	[mockDie value];
+	[[[mockDie expect] andReturn:[NSNumber numberWithInt:5]] value];
+    
+	STAssertEqualObjects([mockDie value], [NSNumber numberWithInt:5], @"");
 	
 	[mockDie verify];
 }

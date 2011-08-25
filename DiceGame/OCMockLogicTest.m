@@ -13,11 +13,10 @@
 
 - (void) testThatOCMockWorksAsALogicTest {
 	id mockDie = [OCMockObject mockForClass:[Die class]];
-	Die *die = [[[Die alloc] init] autorelease];
 	
 	[[[mockDie expect] andReturn:[NSNumber numberWithInt:5]] value];
 
-	[mockDie value];
+	STAssertEqualObjects([mockDie value], [NSNumber numberWithInt:5], @"");
 	
 	[mockDie verify];
 }
