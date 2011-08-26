@@ -14,6 +14,12 @@
 		2899E5220DE3E06400AC0155 /* DiceGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DiceGameViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* DiceGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DiceGameViewController.m */; };
+		7B08D73B14082AE6004214E7 /* DiceGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DiceGameAppDelegate.m */; };
+		7B08D73C14082AE6004214E7 /* DiceGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DiceGameViewController.m */; };
+		7B08D73D14082AE6004214E7 /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
+		7B08D73E14082AE6004214E7 /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
+		7B08D73F14082AE6004214E7 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
+		7B08D74514083C11004214E7 /* OCMockApplicationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68AD6124BEFD4007214CC /* OCMockApplicationTest.m */; };
 		7B654593124B931C0049E82C /* RoundTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B654592124B931C0049E82C /* RoundTest.m */; };
 		7B6547AB124B97900049E82C /* DiceGameAppDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6545CC124B95930049E82C /* DiceGameAppDelegateTest.m */; };
 		7B6548D6124BA4010049E82C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
@@ -59,18 +65,12 @@
 		7BB68DEA124C0D3B007214CC /* DescribeDiceGameViewControllerEnablement.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68DE9124C0D3B007214CC /* DescribeDiceGameViewControllerEnablement.m */; };
 		7BC87EEB124C1D4F00AD91F8 /* DescribeDiceGameViewControllerTextFields.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BC87EEA124C1D4F00AD91F8 /* DescribeDiceGameViewControllerTextFields.m */; };
 		7BC8801F124C2DBC00AD91F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
-		7BE4866D1406E2D6008804EE /* OCMockApplicationTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68AD6124BEFD4007214CC /* OCMockApplicationTest.m */; };
 		7BE4866E1406E2DA008804EE /* OCMockLogicTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68AB7124BEE79007214CC /* OCMockLogicTest.m */; };
 		7BE4866F1406E315008804EE /* libOCMock-sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB68D58124C02FF007214CC /* libOCMock-sim.a */; };
 		7BE4867A1406E794008804EE /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
 		7BE4867B1406E794008804EE /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
 		7BE4867C1406E794008804EE /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
 		7BE4867F1406EA4A008804EE /* libOCMock-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB68D57124C02FF007214CC /* libOCMock-dev.a */; };
-		7BE486841406EAC6008804EE /* DiceGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DiceGameAppDelegate.m */; };
-		7BE486851406EAC6008804EE /* DiceGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DiceGameViewController.m */; };
-		7BE486861406EAC6008804EE /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
-		7BE486871406EAC6008804EE /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
-		7BE486881406EAC6008804EE /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
 		7BE486911406FBBF008804EE /* BPOCUnitXMLReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE486901406FBBF008804EE /* BPOCUnitXMLReporter.m */; };
 		7BE486941406FD44008804EE /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE486931406FD44008804EE /* GDataXMLNode.m */; };
 		7BE486961406FD88008804EE /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE486951406FD88008804EE /* libxml2.dylib */; };
@@ -1173,12 +1173,12 @@
 			files = (
 				7B6547AB124B97900049E82C /* DiceGameAppDelegateTest.m in Sources */,
 				7BB68A84124BE7F3007214CC /* DiceGameViewControllerTest.m in Sources */,
-				7BE4866D1406E2D6008804EE /* OCMockApplicationTest.m in Sources */,
-				7BE486841406EAC6008804EE /* DiceGameAppDelegate.m in Sources */,
-				7BE486851406EAC6008804EE /* DiceGameViewController.m in Sources */,
-				7BE486861406EAC6008804EE /* Die.m in Sources */,
-				7BE486871406EAC6008804EE /* Round.m in Sources */,
-				7BE486881406EAC6008804EE /* Game.m in Sources */,
+				7B08D73B14082AE6004214E7 /* DiceGameAppDelegate.m in Sources */,
+				7B08D73C14082AE6004214E7 /* DiceGameViewController.m in Sources */,
+				7B08D73D14082AE6004214E7 /* Die.m in Sources */,
+				7B08D73E14082AE6004214E7 /* Round.m in Sources */,
+				7B08D73F14082AE6004214E7 /* Game.m in Sources */,
+				7B08D74514083C11004214E7 /* OCMockApplicationTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

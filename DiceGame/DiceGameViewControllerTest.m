@@ -3,7 +3,6 @@
 #import "DiceGameAppDelegate.h"
 #import "DiceGameViewController.h"
 
-
 @interface DiceGameViewControllerTest : SenTestCase {
 	DiceGameAppDelegate *diceGameAppDelegate;
 	DiceGameViewController *diceGameViewController;
