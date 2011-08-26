@@ -63,8 +63,8 @@ static void __attribute__ ((destructor)) BPTestXunitXmlListenerStop(void)
         [center addObserver:self selector:@selector(testCaseStarted:) name:SenTestCaseDidStartNotification object:nil];
         [center addObserver:self selector:@selector(testCaseStopped:) name:SenTestCaseDidStopNotification object:nil];
         [center addObserver:self selector:@selector(testCaseFailed:) name:SenTestCaseDidFailNotification object:nil];
-
-        self.document = [[[GDataXMLDocument alloc] initWithRootElement:[GDataXMLElement elementWithName:@"testsuites"]] autorelease];
+        
+        self.document = [[(GDataXMLDocument *) [GDataXMLDocument alloc] initWithRootElement:[GDataXMLElement elementWithName:@"testsuites"]] autorelease];
         self.suitesElement = self.document.rootElement;
     }
     return self;
@@ -82,8 +82,17 @@ static void __attribute__ ((destructor)) BPTestXunitXmlListenerStop(void)
 
 - (void)writeResultFile;
 {
-    if (self.document)
-        [[self.document XMLData] writeToFile:@"/tmp/ocunit.xml" atomically:NO];
+    if (self.document) {
+        char *ocunitPathCString = getenv("BPOCUnitXMLReporterOut");
+        NSString *ocunitPath;
+        if (ocunitPathCString) {
+            ocunitPath = [NSString stringWithCString:ocunitPathCString
+                                            encoding:NSUTF8StringEncoding];
+        } else {
+            ocunitPath = @"ocunit.xml";
+        }
+        [[self.document XMLData] writeToFile:ocunitPath atomically:NO];
+    }
 }
 
 
