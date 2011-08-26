@@ -38,8 +38,10 @@ http://stackoverflow.com/questions/5364074/
 ----Logic Tests
 -----Use the "Test" scheme only in the Simulator, not on device
 -----Can't use UIKit, not sure about other limitations
+-----Run individual tests by editing the "Test" scheme.
 ----Application Tests
 -----Use the "Run" scheme only on device, not in simulator
+-----Can't run individual tests unless you remove them from the target or comment out their methods.
 ---Errors
 ----Logic Tests
 -----Errors are reported within the Issue Navigator and in your source file as well as in the console output.
