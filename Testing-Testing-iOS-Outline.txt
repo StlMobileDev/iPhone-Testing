@@ -1,20 +1,43 @@
 Sections:
--Intro
---iOS development tips
---developer.apple.com/ios
---Stackoverflow
--Reasoning
---Why Test Automatically
---Why Unit Test
---Why Integration Test
---Why Interaction Test
---Why Mock
---Evaluation
----Ease of use for writing tests
+-Road Map
+--Test Automatically
+---Testing manually will only give you sporadic test coverage.
+---Even if they take longer to write, you'll earn that time back because they are much faster to run
+--Unit Test
+---A unit test only exercises a single class, or at least a single one of your project's classes
+---Writing classes that are easily testable decreases dependencies
+----Independent classes are simpler to reason about
+---Unit tests are robust to changes in the test environment because they only exercise your project's classes and shouldn't have outside dependencies
+----This also makes them very fast
+---Downside: unit tests can fail to find bugs in the seams between classes
+--Integration Test
+---An integration test uses your whole system, or at least as many parts of your system as you can put into a test
+---The best way to know that your system works is to test as many of the real parts as they will actually be used
+---Downside: Integration tests are more brittle than unit tests because they usually have outside environmental dependencies
+----This can also make them slow
+--Interaction Test
+---An interaction test drives your system the same way a user would, with screen touches, keyboard presses, and device rotations
+---An interaction test is the best kind of integration test.
+---Downside: Interaction tests are usually interdependent.  If a single interaction test fails, it can bring down your entire suite.
+---Downside: Interaction tests are usually very slow compared to unit tests.
+--Mocking
+---Mocking keeps tests focused on your classes code instead of on setup
+---Mocking allows you to create situations that are difficult to reproduce in the real world (failures).
+---Mocking tracks explicit object interaction, which is important when testing delegates
+---Downside: If you incorrectly mock an objects' behavior, your unit tests will have bugs.
+----This is why integration testing is important!
+--Evaluation Criteria
+---Ease of setup, writing, and running tests
 ---Error reporting
 ---Debugging
 ---Integration with Xcode
 ---Integration with the command line
+--Demo
+---Simple Game
+---Roll two dice, try to total 7
+---Only allow one roll of each die per round
+---Track rounds played, won, win percentage
+---Allow the user to reset the game.
 -Unit
 --OCUnit
 ---Setup
@@ -26,13 +49,13 @@ http://developer.apple.com/library/ios/#documentation/Xcode/Conceptual/iphone_de
 -----Add a unit testing target.
 -----Add your unit testing target to your host target's dependencies.  This will ensure that your unit test bundle is built before your host.
 -----Add your unit test bundle to your host target's "Copy Bundle Resources" phase.  This hosts your tests inside your host.
+---Write a test
+----a test method starts with "test", takes no argument
 -----A source file can only exist in the either the test bundle or the Application Host bundle.  When you duplicate your app's target to make the Application Host, all of your sources will exist in the Application Host.  When a test requires a source, you must remove it from your Application Host before adding it to the test bundle or you'll see an error like this:
 objc[13130]: Class Die is implemented in both /var/mobile/Applications/8B61A346-2BD5-4659-B23C-C8AEA5C9B418/DiceGame.app/DiceGame and /private/var/mobile/Applications/8B61A346-2BD5-4659-B23C-C8AEA5C9B418/DiceGame.app/BuiltInApplicationUnitTest.octest/BuiltInApplicationUnitTest. One of the two will be used. Which one is undefined.
 And it can manifest itself as errors like this:
 http://stackoverflow.com/questions/5364074/
 -----A source file only has to be added to the test bundle if you use static methods from your source class in your test.  I don't know why this happens, please answer http://stackoverflow.com/questions/7210211/ if you know.  For organization purposes, I think it best to just move all your files over to the test bundle.
----Write a test
-----a test method starts with "test", takes no argument
 ---Running
 ----http://stackoverflow.com/questions/1568992/
 ----Logic Tests
@@ -58,11 +81,20 @@ http://stackoverflow.com/questions/5364074/
 ------http://developer.apple.com/library/ios/#documentation/Xcode/Conceptual/iphone_development/135-Unit_Testing_Applications/unit_testing_applications.html
 --GTM
 ---Setup
+----http://code.google.com/p/google-toolbox-for-mac/wiki/iPhoneUnitTesting
 ---Write a test
+----a test method starts with "test", takes no argument
 ---Running
+----Just build your test app project, the tests run as part of a script.
+----Running your test app will only re-run tests that ran in the script.
+----Can't choose which tests to run, you need to comment out the test or remove the test class from the target.
 ---Errors
+----Errors include line numbers and failure messages
+----Error report is equivalent to OCUnit, doesn't have hooks for configuring junit-style reports
 ---Debugging
-----Open the "Run Script" build phase and comment out your 
+----Disable the "Run Script" build phase
+----Add a breakpoint
+----Build and Run
 ---Command Line
 --GHUnit
 ---Setup
@@ -75,18 +107,32 @@ http://stackoverflow.com/questions/5364074/
 --UIAutomation
 ---Setup
 ---Write a test
+----http://developer.apple.com/library/ios/#documentation/DeveloperTools/Reference/UIAutomationRef/Introduction/Introduction.html
+----Alerts
+-----UIATarget.onAlert callback called whenever an alert is called. Return false if our test does nothing, return true if our test dealt with it.
+-----Can't refer to alerts by Accessibility names, must use alert title and button titles.
+----Multitasking
+-----UIATarget.localTarget().deactivateAppForDuration(10)
+------Simulates the user tapping the home button then tapping your app's icon again 10 seconds later
+----Orientation
+-----UIATarget.localTarget().setDeviceOrientation(UIA_DEVICE_ORIENTATION_LANDSCAPELEFT);
+-----UIATarget.localTarget().setDeviceOrientation(UIA_DEVICE_ORIENTATION_PORTRAIT);
+------Does not send accelerometer data, just simulates an orientation notification
+----Advanced
+-----UIATarget.localTarget().tap({x:100, y:200});
+-----UIATarget.localTarget().doubleTap({x:100, y:200});
+-----UIATarget.localTarget().twoFingerTap({x:100, y:200});
+-----UIATarget.localTarget().pinchOpenFromToForDuration({x:20, y:200}, {x:300, y:200}, 2);
+-----UIATarget.localTarget().pinchCloseFromToForDuration({x:20, y:200}, {x:300, y:200}, 2);
+-----UIATarget.localTarget().dragFromToForDuration({x:160, y:200}, {x:160, y:400}, 1);
+-----UIATarget.localTarget().flickFromTo({x:160, y:200}, {x:160, y:400});
+-----UIATarget.localTarget().pushTimeout(2) // change default timeout to 2 seconds
+-----UIATarget.localTarget().popTimeout() // timeout is back to normal 
 ---Running
 ---Errors
 ---Debugging
 ---Command Line
 --UISpec
----Setup
----Write a test
----Running
----Errors
----Debugging
----Command Line
---KIF
 ---Setup
 ---Write a test
 ---Running
