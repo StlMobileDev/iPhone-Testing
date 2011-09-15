@@ -45,6 +45,16 @@
     [mockGame verify];
 }
 
+- (void) testCustomizedMockBehavior {
+    [[[mockGame expect] andDo:^(NSInvocation *notification) {
+        NSLog(@"This is custom behavior!");
+    }] reset];
+    
+    [testObject resetButtonPressed];
+    
+    [mockGame verify];
+}
+
 - (void) testResetButtonPressedUpdatesTopRollTextFieldWithRoundTopRoll {
     id mockTopTextField = [OCMockObject niceMockForClass:[UITextField class]];
     testObject.topRollTextField = mockTopTextField;
