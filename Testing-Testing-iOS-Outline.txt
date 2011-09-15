@@ -56,6 +56,11 @@ objc[13130]: Class Die is implemented in both /var/mobile/Applications/8B61A346-
 And it can manifest itself as errors like this:
 http://stackoverflow.com/questions/5364074/
 -----A source file only has to be added to the test bundle if you use static methods from your source class in your test.  I don't know why this happens, please answer http://stackoverflow.com/questions/7210211/ if you know.  For organization purposes, I think it best to just move all your files over to the test bundle.
+----Assertions:
+-----STAssertEquals
+------Ensure that the types you use are equivalent (don't mix ints and longs)
+-----STAssertEqualObjects
+------Compares with -[NSObject isEqualTo:]
 ---Running
 ----http://stackoverflow.com/questions/1568992/
 ----Logic Tests
@@ -84,6 +89,8 @@ http://stackoverflow.com/questions/5364074/
 ----http://code.google.com/p/google-toolbox-for-mac/wiki/iPhoneUnitTesting
 ---Write a test
 ----a test method starts with "test", takes no argument
+----STAssertEqualStrings
+-----This is important for comparing i18n strings
 ---Running
 ----Just build your test app project, the tests run as part of a script.
 ----Running your test app will only re-run tests that ran in the script.
@@ -135,8 +142,15 @@ http://stackoverflow.com/questions/5364074/
 ---Command Line
 --UISpec
 ---Setup
+----http://code.google.com/p/uispec/wiki/Installation
+----Need a duplicate app target to host your tests
 ---Write a test
+----Behavior-Driven framework, test names should be "it should …"
+-----show dumps all properties of the query to a log
+-----flash highlights the UIView on the screen
 ---Running
+-----Want to delay running your tests to allow all your startup items to load.
+-----You could also invoke runSpecs at a known safe point within your code.
 ---Errors
 ---Debugging
 ---Command Line
