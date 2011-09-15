@@ -70,4 +70,10 @@
 //    STFail(@"This will show a failure");
 //}
 
+//- (void) testIntMixedWithLong {
+//    int i = 1;
+//    long l = 1;
+//    STAssertEquals(i, l, nil);
+//}
+
 @end
