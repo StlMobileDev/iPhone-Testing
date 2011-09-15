@@ -2,6 +2,8 @@
 #import <UIKit/UIKit.h>
 
 @class Die;
+@class Game;
+@class Round;
 
 @interface DiceGameViewController : UIViewController {
 
@@ -20,6 +22,8 @@
 
 // for testing only
 @property (nonatomic, retain) Die *die;
+@property (nonatomic, retain) Game *game;
+@property (nonatomic, retain) Round *round;
 
 - (IBAction) topRollButtonPressed;
 - (IBAction) bottomRollButtonPressed;

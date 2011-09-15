@@ -27,9 +27,6 @@
 
 @interface DiceGameViewController()
 
-@property (nonatomic, retain) Game *game;
-@property (nonatomic, retain) Round *round;
-
 - (void) finishRoundIfNecessary;
 - (void) updateUi;
 
