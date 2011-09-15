@@ -30,6 +30,19 @@
 		7B6548EB124BA4310049E82C /* BuiltInApplicationUnitTest.octest in Resources */ = {isa = PBXBuildFile; fileRef = 7B6547A6124B977A0049E82C /* BuiltInApplicationUnitTest.octest */; };
 		7B8175841421BDFF00268069 /* OCMockGTMTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68CE4124BFE65007214CC /* OCMockGTMTest.m */; };
 		7B8175881421BEB500268069 /* libOCMock-sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB68D58124C02FF007214CC /* libOCMock-sim.a */; };
+		7B81758F1421C63300268069 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		7B8175901421C63300268069 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		7B8175911421C63300268069 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		7B8175971421C63300268069 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7B8175951421C63300268069 /* InfoPlist.strings */; };
+		7B8175991421C63300268069 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8175981421C63300268069 /* main.m */; };
+		7B8175A61421C72C00268069 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B8175A41421C70900268069 /* GHUnitIOS.framework */; };
+		7B8175AC1421C9FB00268069 /* GameGHUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8175A81421C97300268069 /* GameGHUnitTest.m */; };
+		7B8175AD1421CA7500268069 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056E1124B178900E5B1EF /* Game.m */; };
+		7B8175AF1421CC3000268069 /* DiceGameViewControllerGHUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8175AE1421CC3000268069 /* DiceGameViewControllerGHUnitTest.m */; };
+		7B8175B01421CCAB00268069 /* DiceGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DiceGameViewController.m */; };
+		7B8175B11421CCB700268069 /* Die.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056D8124B155B00E5B1EF /* Die.m */; };
+		7B8175B21421CCB700268069 /* Round.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF056DE124B163900E5B1EF /* Round.m */; };
+		7B8175B31421CD9200268069 /* DiceGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DiceGameViewController.xib */; };
 		7B9D57BA124C478100C48D81 /* libOCMock-sim.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BB68D58124C02FF007214CC /* libOCMock-sim.a */; };
 		7BB68A84124BE7F3007214CC /* DiceGameViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68A83124BE7F3007214CC /* DiceGameViewControllerTest.m */; };
 		7BB68AA0124BEB11007214CC /* GameTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BB68A9F124BEB11007214CC /* GameTest.m */; };
@@ -110,6 +123,14 @@
 		7B6547A7124B977A0049E82C /* BuiltInApplicationUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltInApplicationUnitTest-Info.plist"; sourceTree = "<group>"; };
 		7B6548E6124BA4010049E82C /* DiceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B6548E8124BA4010049E82C /* DiceGameBuiltInApplicationUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiceGameBuiltInApplicationUnitTest-Info.plist"; sourceTree = "<group>"; };
+		7B81758D1421C63300268069 /* GHUnitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHUnitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B8175941421C63300268069 /* GHUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GHUnitTest-Info.plist"; sourceTree = "<group>"; };
+		7B8175961421C63300268069 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7B8175981421C63300268069 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B81759A1421C63300268069 /* GHUnitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHUnitTest-Prefix.pch"; sourceTree = "<group>"; };
+		7B8175A41421C70900268069 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
+		7B8175A81421C97300268069 /* GameGHUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameGHUnitTest.m; sourceTree = "<group>"; };
+		7B8175AE1421CC3000268069 /* DiceGameViewControllerGHUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceGameViewControllerGHUnitTest.m; sourceTree = "<group>"; };
 		7BB68A83124BE7F3007214CC /* DiceGameViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceGameViewControllerTest.m; sourceTree = "<group>"; };
 		7BB68A9F124BEB11007214CC /* GameTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTest.m; sourceTree = "<group>"; };
 		7BB68AB7124BEE79007214CC /* OCMockLogicTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMockLogicTest.m; sourceTree = "<group>"; };
@@ -435,6 +456,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B81758A1421C63300268069 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8175A61421C72C00268069 /* GHUnitIOS.framework in Frameworks */,
+				7B81758F1421C63300268069 /* UIKit.framework in Frameworks */,
+				7B8175901421C63300268069 /* Foundation.framework in Frameworks */,
+				7B8175911421C63300268069 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BB68C6E124BFB89007214CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -484,6 +516,7 @@
 				7B6548E6124BA4010049E82C /* DiceGame.app */,
 				7BB68C70124BFB89007214CC /* GTMUnitTest.app */,
 				7BB68D7F124C083F007214CC /* DiceGame.app */,
+				7B81758D1421C63300268069 /* GHUnitTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -501,6 +534,7 @@
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
+				7B8175921421C63300268069 /* GHUnitTest */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -539,6 +573,7 @@
 				7BB68D57124C02FF007214CC /* libOCMock-dev.a */,
 				7BB68D58124C02FF007214CC /* libOCMock-sim.a */,
 				7BE486951406FD88008804EE /* libxml2.dylib */,
+				7B8175A41421C70900268069 /* GHUnitIOS.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -568,6 +603,27 @@
 				7BB68AD6124BEFD4007214CC /* OCMockApplicationTest.m */,
 			);
 			name = BuiltInApplicationUnitTest;
+			sourceTree = "<group>";
+		};
+		7B8175921421C63300268069 /* GHUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				7B8175AE1421CC3000268069 /* DiceGameViewControllerGHUnitTest.m */,
+				7B8175A81421C97300268069 /* GameGHUnitTest.m */,
+				7B8175931421C63300268069 /* Supporting Files */,
+			);
+			path = GHUnitTest;
+			sourceTree = "<group>";
+		};
+		7B8175931421C63300268069 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B8175941421C63300268069 /* GHUnitTest-Info.plist */,
+				7B8175951421C63300268069 /* InfoPlist.strings */,
+				7B8175981421C63300268069 /* main.m */,
+				7B81759A1421C63300268069 /* GHUnitTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		7BB68ABF124BEEE4007214CC /* OCMock */ = {
@@ -987,6 +1043,23 @@
 			productReference = 7B6548E6124BA4010049E82C /* DiceGame.app */;
 			productType = "com.apple.product-type.application";
 		};
+		7B81758C1421C63300268069 /* GHUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B8175A11421C63400268069 /* Build configuration list for PBXNativeTarget "GHUnitTest" */;
+			buildPhases = (
+				7B8175891421C63300268069 /* Sources */,
+				7B81758A1421C63300268069 /* Frameworks */,
+				7B81758B1421C63300268069 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GHUnitTest;
+			productName = GHUnitTest;
+			productReference = 7B81758D1421C63300268069 /* GHUnitTest.app */;
+			productType = "com.apple.product-type.application";
+		};
 		7BB68C6F124BFB89007214CC /* GTMUnitTest */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7BB68C75124BFB89007214CC /* Build configuration list for PBXNativeTarget "GTMUnitTest" */;
@@ -1039,6 +1112,7 @@
 				Japanese,
 				French,
 				German,
+				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -1050,6 +1124,7 @@
 				7B6548D4124BA4010049E82C /* DiceGameBuiltInApplicationUnitTest */,
 				7BB68C6F124BFB89007214CC /* GTMUnitTest */,
 				7BB68D6D124C083F007214CC /* DiceGameUISpec */,
+				7B81758C1421C63300268069 /* GHUnitTest */,
 			);
 		};
 /* End PBXProject section */
@@ -1085,6 +1160,15 @@
 				7B6548EB124BA4310049E82C /* BuiltInApplicationUnitTest.octest in Resources */,
 				7B6548D6124BA4010049E82C /* MainWindow.xib in Resources */,
 				7B6548D7124BA4010049E82C /* DiceGameViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B81758B1421C63300268069 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8175971421C63300268069 /* InfoPlist.strings in Resources */,
+				7B8175B31421CD9200268069 /* DiceGameViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1190,6 +1274,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		7B8175891421C63300268069 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B8175991421C63300268069 /* main.m in Sources */,
+				7B8175AC1421C9FB00268069 /* GameGHUnitTest.m in Sources */,
+				7B8175AD1421CA7500268069 /* Game.m in Sources */,
+				7B8175AF1421CC3000268069 /* DiceGameViewControllerGHUnitTest.m in Sources */,
+				7B8175B01421CCAB00268069 /* DiceGameViewController.m in Sources */,
+				7B8175B11421CCB700268069 /* Die.m in Sources */,
+				7B8175B21421CCB700268069 /* Round.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7BB68C6D124BFB89007214CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1237,6 +1335,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		7B8175951421C63300268069 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B8175961421C63300268069 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		7BB68C45124BFB22007214CC /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -1456,6 +1562,58 @@
 			};
 			name = Release;
 		};
+		7B8175A21421C63400268069 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitTest/GHUnitTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "GHUnitTest/GHUnitTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7B8175A31421C63400268069 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GHUnitTest/GHUnitTest-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				INFOPLIST_FILE = "GHUnitTest/GHUnitTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		7BB68C73124BFB89007214CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1634,6 +1792,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		7B8175A11421C63400268069 /* Build configuration list for PBXNativeTarget "GHUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B8175A21421C63400268069 /* Debug */,
+				7B8175A31421C63400268069 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		7BB68C75124BFB89007214CC /* Build configuration list for PBXNativeTarget "GTMUnitTest" */ = {
 			isa = XCConfigurationList;
