@@ -96,6 +96,7 @@ http://stackoverflow.com/questions/5364074/
 ----Add a breakpoint
 ----Build and Run
 ---Command Line
+----Just build your Test app with xcodebuild
 --GHUnit
 ---Setup
 ---Write a test
