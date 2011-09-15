@@ -50,4 +50,8 @@
 	[[expectThat([app.button.with currentTitle:@"Roll 2"]) should].be enabled];
 }
 
+//- (void) itShouldFail {
+//    [expectThat(YES) should:be(NO)];
+//}
+
 @end
