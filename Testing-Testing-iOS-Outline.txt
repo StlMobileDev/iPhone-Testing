@@ -108,6 +108,7 @@ http://stackoverflow.com/questions/5364074/
 ---Setup
 ---Write a test
 ---Running
+----Doesn't properly catch unexpected Exceptions in the Simulator.  It will crash.  GTM does it right.
 ---Errors
 ---Debugging
 ---Command Line
