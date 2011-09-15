@@ -131,6 +131,7 @@
 		7B8175A41421C70900268069 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
 		7B8175A81421C97300268069 /* GameGHUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameGHUnitTest.m; sourceTree = "<group>"; };
 		7B8175AE1421CC3000268069 /* DiceGameViewControllerGHUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceGameViewControllerGHUnitTest.m; sourceTree = "<group>"; };
+		7B8175B41421CF7400268069 /* RunTests.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = RunTests.sh; sourceTree = "<group>"; };
 		7BB68A83124BE7F3007214CC /* DiceGameViewControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceGameViewControllerTest.m; sourceTree = "<group>"; };
 		7BB68A9F124BEB11007214CC /* GameTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTest.m; sourceTree = "<group>"; };
 		7BB68AB7124BEE79007214CC /* OCMockLogicTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMockLogicTest.m; sourceTree = "<group>"; };
@@ -618,6 +619,7 @@
 		7B8175931421C63300268069 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7B8175B41421CF7400268069 /* RunTests.sh */,
 				7B8175941421C63300268069 /* GHUnitTest-Info.plist */,
 				7B8175951421C63300268069 /* InfoPlist.strings */,
 				7B8175981421C63300268069 /* main.m */,
@@ -1050,6 +1052,7 @@
 				7B8175891421C63300268069 /* Sources */,
 				7B81758A1421C63300268069 /* Frameworks */,
 				7B81758B1421C63300268069 /* Resources */,
+				7B8175B51421CF8100268069 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1206,6 +1209,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\" 1> /tmp/RunUnitTests.out\n";
+		};
+		7B8175B51421CF8100268069 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh GHUnitTest/RunTests.sh";
 		};
 		7BB68C9F124BFCD6007214CC /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
