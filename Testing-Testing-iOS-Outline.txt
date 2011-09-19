@@ -115,32 +115,28 @@ http://stackoverflow.com/questions/5364074/
 -Interaction
 --UIAutomation
 ---Setup
+----http://developer.apple.com/library/ios/#documentation/DeveloperTools/Conceptual/InstrumentsUserGuide/Built-InInstruments/Built-InInstruments.html#//apple_ref/doc/uid/TP40004652-CH6-SW76
+----The default accessibility options in the simulator don't work properly with UIAutomation
+-----http://stackoverflow.com/questions/1388179/accessibilitylabel-and-accessibilityhint-properties-arent-always-loaded-from-nib
 ---Write a test
 ----http://developer.apple.com/library/ios/#documentation/DeveloperTools/Reference/UIAutomationRef/Introduction/Introduction.html
-----Alerts
------UIATarget.onAlert callback called whenever an alert is called. Return false if our test does nothing, return true if our test dealt with it.
------Can't refer to alerts by Accessibility names, must use alert title and button titles.
-----Multitasking
------UIATarget.localTarget().deactivateAppForDuration(10)
-------Simulates the user tapping the home button then tapping your app's icon again 10 seconds later
-----Orientation
------UIATarget.localTarget().setDeviceOrientation(UIA_DEVICE_ORIENTATION_LANDSCAPELEFT);
------UIATarget.localTarget().setDeviceOrientation(UIA_DEVICE_ORIENTATION_PORTRAIT);
-------Does not send accelerometer data, just simulates an orientation notification
-----Advanced
------UIATarget.localTarget().tap({x:100, y:200});
------UIATarget.localTarget().doubleTap({x:100, y:200});
------UIATarget.localTarget().twoFingerTap({x:100, y:200});
------UIATarget.localTarget().pinchOpenFromToForDuration({x:20, y:200}, {x:300, y:200}, 2);
------UIATarget.localTarget().pinchCloseFromToForDuration({x:20, y:200}, {x:300, y:200}, 2);
------UIATarget.localTarget().dragFromToForDuration({x:160, y:200}, {x:160, y:400}, 1);
------UIATarget.localTarget().flickFromTo({x:160, y:200}, {x:160, y:400});
------UIATarget.localTarget().pushTimeout(2) // change default timeout to 2 seconds
------UIATarget.localTarget().popTimeout() // timeout is back to normal 
+----https://github.com/alexvollmer/tuneup_js
+----include other scripts in the same directory with "#import"
+----Cool hardware Simulations
+-----Alerts
+------UIATarget.onAlert callback called whenever an alert is called. Return false if our test does nothing, return true if our test dealt with it.
+------Can't refer to alerts by Accessibility names, must use alert title and button titles.
+-----Multitasking
+------UIATarget.localTarget().deactivateAppForDuration(10)
+-------Simulates the user tapping the home button then tapping your app's icon again 10 seconds later
+-----Device rotation
+-----Hardware button presses
 ---Running
 ---Errors
 ---Debugging
+----UIALogger severities: Debug, Message, Warning, Error
 ---Command Line
+----No
 --UISpec
 ---Setup
 ----http://code.google.com/p/uispec/wiki/Installation
