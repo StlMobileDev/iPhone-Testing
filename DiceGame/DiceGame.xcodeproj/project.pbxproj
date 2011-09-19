@@ -117,6 +117,9 @@
 		28D7ACF70DDB3853001CB0EB /* DiceGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiceGameViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* DiceGame_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiceGame_Prefix.pch; sourceTree = "<group>"; };
+		7B5B5BF314269D790059A113 /* DiceGameAutomation.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = DiceGameAutomation.js; sourceTree = "<group>"; };
+		7B5B5BF414269DD50059A113 /* DiceGameViewControllerEnablementAutomation.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = DiceGameViewControllerEnablementAutomation.js; sourceTree = "<group>"; };
+		7B5B5BF514269DF30059A113 /* DiceGameViewControllerTextFieldsAutomation.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = DiceGameViewControllerTextFieldsAutomation.js; sourceTree = "<group>"; };
 		7B64C37C1422B37800061D19 /* OCMockGHUnitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCMockGHUnitTest.m; sourceTree = "<group>"; };
 		7B654513124B8BAD0049E82C /* BuiltInUnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuiltInUnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B654514124B8BAD0049E82C /* BuiltInUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuiltInUnitTest-Info.plist"; sourceTree = "<group>"; };
@@ -529,6 +532,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				7B5B5BF214269D390059A113 /* UIAutomation */,
 				7BB68DE7124C0D0B007214CC /* UISpecDescribes */,
 				7BB68D85124C08AA007214CC /* UISpec */,
 				7BB68CA5124BFD07007214CC /* GTMUnitTest */,
@@ -585,6 +589,16 @@
 				7BB68DA7124C08F4007214CC /* UISpec_1_0.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7B5B5BF214269D390059A113 /* UIAutomation */ = {
+			isa = PBXGroup;
+			children = (
+				7B5B5BF314269D790059A113 /* DiceGameAutomation.js */,
+				7B5B5BF414269DD50059A113 /* DiceGameViewControllerEnablementAutomation.js */,
+				7B5B5BF514269DF30059A113 /* DiceGameViewControllerTextFieldsAutomation.js */,
+			);
+			name = UIAutomation;
 			sourceTree = "<group>";
 		};
 		7B654590124B93030049E82C /* BuiltInLogicUnitTest */ = {
